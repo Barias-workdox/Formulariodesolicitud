@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "smart-contract-form",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "runtimeArgs": ["/Users/jarias/Documents/NuevocontratoSmart/smart-contract-form/node_modules/.bin/vite"],
+      "cwd": "/Users/jarias/Documents/NuevocontratoSmart/smart-contract-form",
+      "port": 5173
+    },
+    {
+      "name": "design-system (Storybook)",
+      "runtimeExecutable": "/usr/local/bin/npm",
+      "runtimeArgs": ["run", "storybook"],
+      "cwd": "/Users/jarias/Documents/NuevocontratoSmart/design-system",
+      "port": 6006
+    }
+  ]
+}
