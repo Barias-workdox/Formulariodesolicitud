@@ -1,0 +1,382 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Text > Accessibility and interactions > should render with htmlFor attribute 1`] = `
+<div
+  class="style={}
+"
+>
+  <div
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-upper-details)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-labelxsmall"
+    data-testid="text-component"
+    for="input-id"
+  >
+    Sample text content
+  </div>
+</div>
+`;
+
+exports[`Text > Complex scenarios > should render with all props combined 1`] = `
+<div
+  class="style={}
+"
+>
+  <h6
+    class="style={
+  color: 'secondary',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-h1)), 12px)',
+  fontWeight: 'bold',
+  lineHeight: 1.5,
+  marginTop: '1rem',
+  textAlign: 'right',
+}
+"
+    data-baseweb="typo-headingxsmall"
+    data-testid="text-component"
+    for="complex-input"
+  >
+    Sample text content
+  </h6>
+</div>
+`;
+
+exports[`Text > Complex scenarios > should render with different content types 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphmedium"
+    data-testid="text-with-jsx"
+  >
+    Text with 
+    <strong>
+      bold
+    </strong>
+     and 
+    <em>
+      italic
+    </em>
+     content
+  </p>
+</div>
+`;
+
+exports[`Text > Fallback behavior > should fall back to body variant when accessing deprecated variant internally 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphmedium"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Props variations > should render with custom color 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#FF0000',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-h2)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphlarge"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Props variations > should render with custom font weight 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: '700',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphmedium"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Props variations > should render with custom styles 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body-small-mono)), 12px)',
+  fontWeight: '400',
+  letterSpacing: '0.1em',
+  lineHeight: 1.5,
+  textAlign: 'start',
+  textDecoration: 'underline',
+}
+"
+    data-baseweb="typo-paragraphsmall"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Props variations > should render with custom text alignment 1`] = `
+<div
+  class="style={}
+"
+>
+  <h6
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-h1)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'center',
+}
+"
+    data-baseweb="typo-headingxsmall"
+    data-testid="text-component"
+  >
+    Sample text content
+  </h6>
+</div>
+`;
+
+exports[`Text > Props variations > should render with design system color 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#000000',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphmedium"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Props variations > should render with onClick handler 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-microcopy)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphxsmall"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Valid variants > should render correctly with variant "body" 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphmedium"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Valid variants > should render correctly with variant "bodySmall" 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body-small-mono)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphsmall"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Valid variants > should render correctly with variant "h1" 1`] = `
+<div
+  class="style={}
+"
+>
+  <h6
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-h1)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-headingxsmall"
+    data-testid="text-component"
+  >
+    Sample text content
+  </h6>
+</div>
+`;
+
+exports[`Text > Valid variants > should render correctly with variant "h2" 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-h2)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphlarge"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Valid variants > should render correctly with variant "microCopy" 1`] = `
+<div
+  class="style={}
+"
+>
+  <p
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-microcopy)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-paragraphxsmall"
+    data-testid="text-component"
+  >
+    Sample text content
+  </p>
+</div>
+`;
+
+exports[`Text > Valid variants > should render correctly with variant "upperDetails" 1`] = `
+<div
+  class="style={}
+"
+>
+  <div
+    class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-upper-details)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  textAlign: 'start',
+}
+"
+    data-baseweb="typo-labelxsmall"
+    data-testid="text-component"
+  >
+    Sample text content
+  </div>
+</div>
+`;

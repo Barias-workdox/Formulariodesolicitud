@@ -1,0 +1,613 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`chat-message-menu tests > should render the component correctly when called with feedback = \`negative\` > negative active 1`] = `
+<button
+  class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#E0E3EB',
+    borderColor: '#E0E3EB',
+    color: '#283242',
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: 'transparent',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#52617A',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#52617A',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '32px',
+}
+"
+  data-baseweb="button"
+  data-testid="data-testid--negative-feedback-button-1"
+  id="bui2__anchor"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    fill="currentColor"
+    focusable="false"
+    height="16"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 32 32"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M30,16V9a7.0078,7.0078,0,0,0-7-7H2V16H8.4648l3.5774,5.3662.8453,5.9165A2.0094,2.0094,0,0,0,14.8672,29H17a3.0033,3.0033,0,0,0,3-3V20h6A4.0045,4.0045,0,0,0,30,16ZM8,14H4V4H8Zm20,2a2.0025,2.0025,0,0,1-2,2H18v8a1.0008,1.0008,0,0,1-1,1H14.8672l-.9094-6.3662L10,14.6973V4H23a5.0057,5.0057,0,0,1,5,5Z"
+    />
+  </svg>
+</button>
+`;
+
+exports[`chat-message-menu tests > should render the component correctly when called with feedback = \`negative\` > positive inactive 1`] = `
+<button
+  class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#E0E3EB',
+    borderColor: '#E0E3EB',
+    color: '#283242',
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: '#EDEEF3',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#E0E3EB',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#52617A',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '32px',
+}
+"
+  data-baseweb="button"
+  data-testid="data-testid--positive-feedback-button-1"
+  id="bui1__anchor"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    fill="currentColor"
+    focusable="false"
+    height="16"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 32 32"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M26,12H20V6a3.0033,3.0033,0,0,0-3-3H14.8672a2.0094,2.0094,0,0,0-1.98,1.7173l-.8453,5.9165L8.4648,16H2V30H23a7.0078,7.0078,0,0,0,7-7V16A4.0045,4.0045,0,0,0,26,12ZM8,28H4V18H8Zm20-5a5.0057,5.0057,0,0,1-5,5H10V17.3027l3.9578-5.9365L14.8672,5H17a1.0008,1.0008,0,0,1,1,1v8h8a2.0025,2.0025,0,0,1,2,2Z"
+    />
+  </svg>
+</button>
+`;
+
+exports[`chat-message-menu tests > should render the component correctly when called with feedback = \`positive\` > negative inactive 1`] = `
+<button
+  class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#E0E3EB',
+    borderColor: '#E0E3EB',
+    color: '#283242',
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: '#EDEEF3',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#E0E3EB',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#52617A',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '32px',
+}
+"
+  data-baseweb="button"
+  data-testid="data-testid--negative-feedback-button-1"
+  id="bui2__anchor"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    fill="currentColor"
+    focusable="false"
+    height="16"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 32 32"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M30,16V9a7.0078,7.0078,0,0,0-7-7H2V16H8.4648l3.5774,5.3662.8453,5.9165A2.0094,2.0094,0,0,0,14.8672,29H17a3.0033,3.0033,0,0,0,3-3V20h6A4.0045,4.0045,0,0,0,30,16ZM8,14H4V4H8Zm20,2a2.0025,2.0025,0,0,1-2,2H18v8a1.0008,1.0008,0,0,1-1,1H14.8672l-.9094-6.3662L10,14.6973V4H23a5.0057,5.0057,0,0,1,5,5Z"
+    />
+  </svg>
+</button>
+`;
+
+exports[`chat-message-menu tests > should render the component correctly when called with feedback = \`positive\` > positive active 1`] = `
+<button
+  class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#E0E3EB',
+    borderColor: '#E0E3EB',
+    color: '#283242',
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: 'transparent',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#52617A',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#52617A',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '32px',
+}
+"
+  data-baseweb="button"
+  data-testid="data-testid--positive-feedback-button-1"
+  id="bui1__anchor"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    fill="currentColor"
+    focusable="false"
+    height="16"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 32 32"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M26,12H20V6a3.0033,3.0033,0,0,0-3-3H14.8672a2.0094,2.0094,0,0,0-1.98,1.7173l-.8453,5.9165L8.4648,16H2V30H23a7.0078,7.0078,0,0,0,7-7V16A4.0045,4.0045,0,0,0,26,12ZM8,28H4V18H8Zm20-5a5.0057,5.0057,0,0,1-5,5H10V17.3027l3.9578-5.9365L14.8672,5H17a1.0008,1.0008,0,0,1,1,1v8h8a2.0025,2.0025,0,0,1,2,2Z"
+    />
+  </svg>
+</button>
+`;
+
+exports[`chat-message-menu tests > should render the component correctly when called with feedback undefined > negative inactive 1`] = `
+<button
+  class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#E0E3EB',
+    borderColor: '#E0E3EB',
+    color: '#283242',
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: 'transparent',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#52617A',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#52617A',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '32px',
+}
+"
+  data-baseweb="button"
+  data-testid="data-testid--negative-feedback-button-1"
+  id="bui2__anchor"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    fill="currentColor"
+    focusable="false"
+    height="16"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 32 32"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M30,16V9a7.0078,7.0078,0,0,0-7-7H2V16H8.4648l3.5774,5.3662.8453,5.9165A2.0094,2.0094,0,0,0,14.8672,29H17a3.0033,3.0033,0,0,0,3-3V20h6A4.0045,4.0045,0,0,0,30,16ZM8,14H4V4H8Zm20,2a2.0025,2.0025,0,0,1-2,2H18v8a1.0008,1.0008,0,0,1-1,1H14.8672l-.9094-6.3662L10,14.6973V4H23a5.0057,5.0057,0,0,1,5,5Z"
+    />
+  </svg>
+</button>
+`;
+
+exports[`chat-message-menu tests > should render the component correctly when called with feedback undefined > positive inactive 1`] = `
+<button
+  class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#E0E3EB',
+    borderColor: '#E0E3EB',
+    color: '#283242',
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: '#EDEEF3',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#E0E3EB',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#52617A',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '32px',
+}
+"
+  data-baseweb="button"
+  data-testid="data-testid--positive-feedback-button-1"
+  id="bui1__anchor"
+  type="button"
+>
+  <svg
+    aria-hidden="true"
+    fill="currentColor"
+    focusable="false"
+    height="16"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 32 32"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M26,12H20V6a3.0033,3.0033,0,0,0-3-3H14.8672a2.0094,2.0094,0,0,0-1.98,1.7173l-.8453,5.9165L8.4648,16H2V30H23a7.0078,7.0078,0,0,0,7-7V16A4.0045,4.0045,0,0,0,26,12ZM8,28H4V18H8Zm20-5a5.0057,5.0057,0,0,1-5,5H10V17.3027l3.9578-5.9365L14.8672,5H17a1.0008,1.0008,0,0,1,1,1v8h8a2.0025,2.0025,0,0,1,2,2Z"
+    />
+  </svg>
+</button>
+`;

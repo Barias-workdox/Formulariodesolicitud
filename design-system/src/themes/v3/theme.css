@@ -1,0 +1,20 @@
+/**
+ * Typography scale variables
+ * 
+ * Defines responsive typography scale using CSS variables.
+ * Base font size uses clamp() for fluid scaling between 12px and 16px.
+ * h1=20px, h2=18px, body=16px, bodySmall=14px, microcopy=12px, upperDetails=12px
+ * Scale factors are applied to the base size to create a consistent typography hierarchy.
+ */
+
+:root {
+  --font-base-size: clamp(12px, 1vw + 0.5rem, 16px);
+  --font-scale-h1: 1.25;
+  --font-scale-h2: 1.125;
+  --font-scale-body: 1;
+  --font-scale-body-mono: 1;
+  --font-scale-small: 0.875;
+  --font-scale-body-small-mono: 0.875;
+  --font-scale-microcopy: 0.75;
+  --font-scale-upper-details: 0.75;
+}

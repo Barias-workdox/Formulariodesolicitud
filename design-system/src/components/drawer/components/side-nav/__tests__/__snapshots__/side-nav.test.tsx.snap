@@ -1,0 +1,64 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SideNav component > should set default properties correctly 1`] = `
+<div
+  class="style={
+  backgroundColor: '#FFFFFF',
+  'border-right': '1px solid #E0E3EB',
+  display: 'flex',
+  flexDirection: 'column',
+  flexShrink: 0,
+  height: 'auto',
+  'margin-left': 0,
+  order: '0',
+  overflowX: 'hidden',
+  transition: '500ms cubic-bezier(0.4, 0, 0.2, 1)',
+  width: '500px',
+}
+"
+>
+  content_text
+</div>
+`;
+
+exports[`SideNav component > should set full size and left anchor correctly 1`] = `
+<div
+  class="style={
+  backgroundColor: '#FFFFFF',
+  'border-left': '1px solid #E0E3EB',
+  display: 'flex',
+  flexDirection: 'column',
+  flexShrink: 0,
+  height: 'auto',
+  'margin-right': '-100%',
+  order: '999',
+  overflowX: 'hidden',
+  transition: '500ms cubic-bezier(0.4, 0, 0.2, 1)',
+  width: '100%',
+}
+"
+>
+  content_text
+</div>
+`;
+
+exports[`SideNav component > should set the size and anchor properly 1`] = `
+<div
+  class="style={
+  backgroundColor: '#FFFFFF',
+  'border-left': '1px solid #E0E3EB',
+  display: 'flex',
+  flexDirection: 'column',
+  flexShrink: 0,
+  height: 'auto',
+  'margin-left': 0,
+  order: '999',
+  overflowX: 'hidden',
+  transition: '500ms cubic-bezier(0.4, 0, 0.2, 1)',
+  width: 'auto',
+}
+"
+>
+  content_text
+</div>
+`;

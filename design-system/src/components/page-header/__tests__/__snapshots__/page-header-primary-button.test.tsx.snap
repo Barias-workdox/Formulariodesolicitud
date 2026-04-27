@@ -1,0 +1,215 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageHeaderPrimaryButton - tests > should render the component correctly when screen is extrasmall 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <button
+      aria-label="Button"
+      class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#001133',
+    boxShadow: 'inset 999px 999px 0px rgba(255, 255, 255, 0.2) ',
+    color: '#334199',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#001133',
+    color: '#334199',
+  },
+  ':focus-visible': {
+    boxShadow: 'inset 0 0 0 2px #FFFFFF, 0 0 0 2px #276EF1 ',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#0D1C77',
+    borderColor: '#0D1C77',
+  },
+  '@media (hover: hover)': {
+    ':hover': {
+      boxShadow: 'inset 999px 999px 0px rgba(255, 255, 255, 0.1) ',
+    },
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: '#334199',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#334199',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#FFFFFF',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: '0 1rem 0 1rem',
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: 'fit-content',
+}
+"
+      data-baseweb="button"
+      data-testid="page-header__primary-button"
+      type="button"
+    >
+      Button
+    </button>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
+
+exports[`PageHeaderPrimaryButton - tests > should render the component correctly when screen is small 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <button
+      aria-label="Button"
+      class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#001133',
+    boxShadow: 'inset 999px 999px 0px rgba(255, 255, 255, 0.2) ',
+    color: '#334199',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#001133',
+    color: '#334199',
+  },
+  ':focus-visible': {
+    boxShadow: 'inset 0 0 0 2px #FFFFFF, 0 0 0 2px #276EF1 ',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#0D1C77',
+    borderColor: '#0D1C77',
+  },
+  '@media (hover: hover)': {
+    ':hover': {
+      boxShadow: 'inset 999px 999px 0px rgba(255, 255, 255, 0.1) ',
+    },
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: '#334199',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#334199',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#FFFFFF',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: '0 1rem 0 1rem',
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: 'fit-content',
+}
+"
+      data-baseweb="button"
+      data-testid="page-header__primary-button"
+      type="button"
+    >
+      Button
+    </button>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;

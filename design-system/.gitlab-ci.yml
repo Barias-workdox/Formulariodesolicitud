@@ -1,0 +1,7 @@
+---
+variables:
+  CODE_LANGUAJE: "node"
+
+include:
+  - project: 'webdoxclm/template/ci-base/ci-template'
+    file: 'ci-npm-design-system.yaml'

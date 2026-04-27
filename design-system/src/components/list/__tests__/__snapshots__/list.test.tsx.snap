@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`list - tests > should render table correctly 1`] = `
+<ul
+  class="style={
+  border: '1px solid #E0E3EB',
+  margin: 0,
+  minHeight: '1px',
+  overflow: 'auto',
+  padding: 0,
+  position: 'relative',
+  width: '100%',
+}
+"
+>
+  <li>
+    Example
+  </li>
+  <li>
+    Example2
+  </li>
+  <li>
+    Example3
+  </li>
+</ul>
+`;

@@ -1,0 +1,68 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ComposerTextarea - test > should render correctly when \`value\` is inner html empty value > when value is inner html empty value 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      class="style={
+  '::-webkit-scrollbar': {
+    height: '6px',
+    width: '6px',
+  },
+  '::-webkit-scrollbar-thumb': {
+    background: 'transparent',
+  },
+  '::-webkit-scrollbar-track': {
+    background: 'transparent',
+  },
+  '::before': {
+    color: '#B4BAC5',
+    content: 'attr(placeholder)',
+    fontFamily: '"Albert Sans", sans-serif',
+    fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+    fontWeight: 'normal',
+    lineHeight: 1.5,
+    maxWidth: 'calc(100% - 2 * 1rem)',
+    overflow: 'hidden',
+    pointerEvents: 'none',
+    position: 'absolute',
+  },
+  ':hover': {
+    '::-webkit-scrollbar-thumb': {
+      background: '#E0E3EB',
+    },
+    scrollbarColor: '#E0E3EB transparent',
+  },
+  backgroundColor: 'transparent',
+  border: 'none',
+  boxSizing: 'border-box',
+  color: '#69768B',
+  cursor: 'text',
+  flex: 1,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  height: '100%',
+  lineHeight: 1.5,
+  outline: 'none',
+  overflow: 'auto',
+  padding: '0.5rem 1rem',
+  position: 'relative',
+  scrollbarColor: 'transparent transparent',
+  scrollbarWidth: 'thin',
+}
+"
+      contenteditable="true"
+      data-testid="textarea"
+      placeholder="Escribe un mensaje..."
+    />
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,611 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Link > Combined props scenarios > should render disabled with contrast kind and small size 1`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="true"
+    class="style={
+  ':active': { color: '#52617A' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: 'none',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: 'none',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#52617A' },
+  ':visited': { color: '#52617A' },
+  color: '#52617A',
+  cursor: 'not-allowed',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body-small-mono)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    tabindex="-1"
+  >
+    Disabled Contrast Small Link
+  </a>
+</div>
+`;
+
+exports[`Link > Combined props scenarios > should render with all props combined 1`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#FFFFFF' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #FFFFFF',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #FFFFFF',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#FFFFFF' },
+  ':visited': { color: '#B4BAC5' },
+  color: '#FFFFFF',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body-small-mono)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'none',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="combined-test--link"
+    href="https://combined.example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_self"
+  >
+    Combined Props Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with different kind variants 1`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with different kind variants 2`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#FFFFFF' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #FFFFFF',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #FFFFFF',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#FFFFFF' },
+  ':visited': { color: '#B4BAC5' },
+  color: '#FFFFFF',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with different size variants 1`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with different size variants 2`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body-small-mono)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with different target values 1`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with different target values 2`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_self"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with different target values 3`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_parent"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with different target values 4`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_top"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with disabled state 1`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="true"
+    class="style={
+  ':active': { color: '#B4BAC5' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: 'none',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: 'none',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#B4BAC5' },
+  ':visited': { color: '#B4BAC5' },
+  color: '#B4BAC5',
+  cursor: 'not-allowed',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    tabindex="-1"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with underlined prop 1`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Props variations > should render with underlined prop 2`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'none',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    Test Link
+  </a>
+</div>
+`;
+
+exports[`Link > Rendering > should render the component with default props 1`] = `
+<div
+  class="style={}
+"
+>
+  <a
+    aria-disabled="false"
+    class="style={
+  ':active': { color: '#0D1C77' },
+  ':focus': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':focus-visible': {
+    borderRadius: '2px',
+    outline: '2px solid #52617A',
+    outlineOffset: '2px',
+  },
+  ':hover': { color: '#0D1C77' },
+  ':visited': { color: '#171A1C' },
+  color: '#334199',
+  cursor: 'pointer',
+  display: 'inline',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: '150%',
+  padding: 0,
+  textDecoration: 'underline',
+  textUnderlineOffset: '2px',
+}
+"
+    data-testid="test-link--link"
+    href="https://example.com"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    Test Link
+  </a>
+</div>
+`;

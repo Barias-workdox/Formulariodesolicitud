@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "declaration": true,
+    "target": "es2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@constants/*": ["constants/*"],
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@contexts/*": ["contexts/*"],
+      "@locales/*": ["locales/*"],
+      "@themes": ["themes"],
+      "@themes/*": ["themes/*"],
+      "@tokens": ["themes/v3/tokens"],
+      "@tokens/*": ["themes/v3/tokens/*"],
+      "@types/*": ["types/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@assets/*": ["assets/*"],
+      "@utils/*": ["utils/*"],
+      "@test/*": ["test/*"]
+    },
+    "types": ["vitest/globals"]
+  },
+  "include": ["src", "vitest-setup.ts", "plugins"],
+  "exclude": ["node_modules", "eslint.rc", "src/CHANGELOG.md"]
+}

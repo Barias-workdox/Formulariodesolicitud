@@ -1,0 +1,11 @@
+export const WEBDOX_AI_BUTTON_SIZE = '36px';
+
+export const WEBDOX_AI_BUTTON_CONTAINER_SIZE = 44;
+
+export const WEBDOX_AI_BUTTON_CONTAINER_SIZE_PX = `${WEBDOX_AI_BUTTON_CONTAINER_SIZE}px`;
+
+export const WEBDOX_AI_BUTTON_ICON_SIZE = '18px';
+
+export const WEBDOX_AI_SELECT_WIDTH = '130px';
+
+export const WEBDOX_AI_BUTTON_ICON_SMALL_SIZE = '16px';

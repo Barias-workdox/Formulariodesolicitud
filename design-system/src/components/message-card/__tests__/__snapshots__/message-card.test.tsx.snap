@@ -1,0 +1,220 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MessageCard - tests > should render correctly when \`onFocus\` and \`onBlur\` events are called > default status 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div>
+      <button
+        aria-selected="false"
+        class="style={
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    borderColor: '#E0E3EB',
+    cursor: 'not-allowed',
+  },
+  ':hover': {
+    backgroundColor: '#F4F5F6',
+    borderColor: '#E0E3EB',
+  },
+  alignItems: 'start',
+  backgroundColor: '#FFFFFF',
+  border: 'solid 1px',
+  borderColor: '#E0E3EB',
+  borderRadius: '0.25rem',
+  cursor: 'pointer',
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '0.25rem',
+  height: 'fit-content',
+  justifyContent: 'start',
+  minWidth: '240px',
+  outline: 'unset',
+  padding: '0.5rem',
+  width: 'fit-content',
+}
+"
+        data-testid="message-card--button"
+      >
+        <div
+          class="style={
+  alignItems: 'center',
+  display: 'flex',
+  flexDirection: 'row',
+  gap: '0.5rem',
+  width: '100%',
+}
+"
+          data-testid="message-card__title"
+        >
+          <div
+            class="style={
+  alignItems: 'center',
+  background: '#DADDFB',
+  borderRadius: '50%',
+  display: 'flex',
+  flexShrink: 0,
+  height: '24px',
+  justifyContent: 'center',
+  padding: 0,
+  width: '24px',
+}
+"
+            data-testid="message-card__title-icon-default--wrapper"
+          >
+            <svg
+              aria-hidden="true"
+              color="#001133"
+              data-testid="message-card__title-icon-default--icon"
+              fill="currentColor"
+              focusable="false"
+              height="16px"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 16 16"
+              width="16px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8,3.3l1.4,2.8l0.2,0.5l0.5,0.1l3.1,0.4L11,9.2l-0.4,0.4l0.1,0.5l0.5,3.1l-2.8-1.4L8,11.5l-0.5,0.2l-2.8,1.4l0.5-3.1 l0.1-0.5L5,9.2L2.8,7l3.1-0.4l0.5-0.1L6.6,6L8,3.3 M8,1L5.7,5.6L0.6,6.3l3.7,3.6L3.5,15L8,12.6l4.6,2.4l-0.9-5.1l3.7-3.6l-5.1-0.7 L8,1z"
+              />
+            </svg>
+          </div>
+          <p
+            class="style={
+  color: '#52617A',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: '700',
+  lineHeight: 1.5,
+  margin: 0,
+  textAlign: 'start',
+  width: '100%',
+}
+"
+            data-baseweb="typo-paragraphmedium"
+          >
+            example-title
+          </p>
+        </div>
+      </button>
+    </div>
+    <button>
+      Secondary element
+    </button>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
+
+exports[`MessageCard - tests > should render correctly when \`onFocus\` and \`onBlur\` events are called > focus status 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div>
+      <button
+        aria-selected="true"
+        class="style={
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    borderColor: '#E0E3EB',
+    cursor: 'not-allowed',
+  },
+  alignItems: 'start',
+  backgroundColor: '#EBEDFF',
+  border: 'solid 1px',
+  borderColor: '#334199',
+  borderRadius: '0.25rem',
+  color: '#171A1C',
+  cursor: 'pointer',
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '0.25rem',
+  height: 'fit-content',
+  justifyContent: 'start',
+  minWidth: '240px',
+  outline: 'unset',
+  padding: '0.5rem',
+  width: 'fit-content',
+}
+"
+        data-testid="message-card--button"
+      >
+        <div
+          class="style={
+  alignItems: 'center',
+  display: 'flex',
+  flexDirection: 'row',
+  gap: '0.5rem',
+  width: '100%',
+}
+"
+          data-testid="message-card__title"
+        >
+          <div
+            class="style={
+  alignItems: 'center',
+  background: '#A3AEF5',
+  borderRadius: '50%',
+  display: 'flex',
+  flexShrink: 0,
+  height: '24px',
+  justifyContent: 'center',
+  padding: 0,
+  width: '24px',
+}
+"
+            data-testid="message-card__title-icon-default--wrapper"
+          >
+            <svg
+              aria-hidden="true"
+              color="#001133"
+              data-testid="message-card__title-icon-default--icon"
+              fill="currentColor"
+              focusable="false"
+              height="16px"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 16 16"
+              width="16px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8,3.3l1.4,2.8l0.2,0.5l0.5,0.1l3.1,0.4L11,9.2l-0.4,0.4l0.1,0.5l0.5,3.1l-2.8-1.4L8,11.5l-0.5,0.2l-2.8,1.4l0.5-3.1 l0.1-0.5L5,9.2L2.8,7l3.1-0.4l0.5-0.1L6.6,6L8,3.3 M8,1L5.7,5.6L0.6,6.3l3.7,3.6L3.5,15L8,12.6l4.6,2.4l-0.9-5.1l3.7-3.6l-5.1-0.7 L8,1z"
+              />
+            </svg>
+          </div>
+          <p
+            class="style={
+  color: '#171A1C',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: '700',
+  lineHeight: 1.5,
+  margin: 0,
+  textAlign: 'start',
+  width: '100%',
+}
+"
+            data-baseweb="typo-paragraphmedium"
+          >
+            example-title
+          </p>
+        </div>
+      </button>
+    </div>
+    <button>
+      Secondary element
+    </button>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;

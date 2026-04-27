@@ -1,0 +1,188 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ItemLabelCounter - tests > renders the component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      class="style={
+  alignItems: 'center',
+  backgroundColor: '#FFFFFF',
+  border: '1px solid',
+  borderColor: '#E0E3EB',
+  borderRadius: '20px',
+  boxSizing: 'border-box',
+  color: '#283242',
+  display: 'inline-flex',
+  gap: '4px',
+  height: '20px',
+  maxWidth: '100%',
+  padding: '0 0.5rem',
+  width: 'max-content',
+}
+"
+      data-testid="item-label-counter"
+    >
+      <span
+        class="style={ overflow: 'hidden' }
+"
+        id="bui1__anchor"
+      >
+        <p
+          class="style={
+  WebkitBoxOrient: 'vertical',
+  WebkitLineClamp: 1,
+  color: 'inherit',
+  display: '-webkit-box',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-microcopy)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  margin: 0,
+  overflow: 'hidden',
+  textAlign: 'start',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'pre-wrap',
+  wordBreak: 'break-all',
+}
+"
+          data-baseweb="typo-paragraphxsmall"
+        >
+          5
+        </p>
+      </span>
+    </div>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
+
+exports[`ItemLabelCounter - tests > renders the component correctly when \`disabled\` is \`true\` 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      aria-disabled="true"
+      class="style={
+  alignItems: 'center',
+  backgroundColor: '#FFFFFF',
+  border: '1px solid',
+  borderColor: '#E0E3EB',
+  borderRadius: '20px',
+  boxSizing: 'border-box',
+  color: '#B4BAC5',
+  display: 'inline-flex',
+  gap: '4px',
+  height: '20px',
+  maxWidth: '100%',
+  padding: '0 0.5rem',
+  width: 'max-content',
+}
+"
+      data-testid="item-label-counter"
+    >
+      <span
+        class="style={ overflow: 'hidden' }
+"
+        id="bui1__anchor"
+      >
+        <p
+          class="style={
+  WebkitBoxOrient: 'vertical',
+  WebkitLineClamp: 1,
+  color: 'inherit',
+  display: '-webkit-box',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-microcopy)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  margin: 0,
+  overflow: 'hidden',
+  textAlign: 'start',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'pre-wrap',
+  wordBreak: 'break-all',
+}
+"
+          data-baseweb="typo-paragraphxsmall"
+        >
+          5
+        </p>
+      </span>
+    </div>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
+
+exports[`ItemLabelCounter - tests > renders the component correctly when \`isActive\` is \`true\` 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      class="style={
+  alignItems: 'center',
+  backgroundColor: '#FFFFFF',
+  border: '1px solid',
+  borderColor: '#334199',
+  borderRadius: '20px',
+  boxSizing: 'border-box',
+  color: '#0D1C77',
+  display: 'inline-flex',
+  gap: '4px',
+  height: '20px',
+  maxWidth: '100%',
+  padding: '0 0.5rem',
+  width: 'max-content',
+}
+"
+      data-testid="item-label-counter"
+    >
+      <span
+        class="style={ overflow: 'hidden' }
+"
+        id="bui1__anchor"
+      >
+        <p
+          class="style={
+  WebkitBoxOrient: 'vertical',
+  WebkitLineClamp: 1,
+  color: 'inherit',
+  display: '-webkit-box',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-microcopy)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  margin: 0,
+  overflow: 'hidden',
+  textAlign: 'start',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'pre-wrap',
+  wordBreak: 'break-all',
+}
+"
+          data-baseweb="typo-paragraphxsmall"
+        >
+          5
+        </p>
+      </span>
+    </div>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;

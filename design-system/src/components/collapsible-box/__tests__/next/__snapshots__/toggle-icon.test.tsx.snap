@@ -1,0 +1,225 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ToggleIcon - tests > should render the component correctly when \`size\` is \`large\` > when size is large 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <button
+      class="style={
+  ':active': {
+    backgroundColor: '#FFFFFF',
+    borderColor: '#FFFFFF',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#FFFFFF',
+    borderColor: '#FFFFFF',
+    color: '#283242',
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: '#FFFFFF',
+  border: '1px solid #FFFFFF',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#FFFFFF',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#52617A',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '32px',
+}
+"
+      data-baseweb="button"
+      data-testid="toggle-icon"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
+
+exports[`ToggleIcon - tests > should render the component correctly when \`size\` is \`small\` > when size is small 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <button
+      class="style={
+  ':active': {
+    backgroundColor: '#FFFFFF',
+    borderColor: '#FFFFFF',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#FFFFFF',
+    borderColor: '#FFFFFF',
+    color: '#283242',
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '24px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: '#FFFFFF',
+  border: '1px solid #FFFFFF',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#FFFFFF',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#52617A',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '16px',
+  fontWeight: 400,
+  height: '24px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '24px',
+}
+"
+      data-baseweb="button"
+      data-testid="toggle-icon"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        height="16"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8 11L3 6 3.7 5.3 8 9.6 12.3 5.3 13 6z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;

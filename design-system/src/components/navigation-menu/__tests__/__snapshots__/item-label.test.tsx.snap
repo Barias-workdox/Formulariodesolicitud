@@ -1,0 +1,117 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ItemLabel - tests > applies the active styles when \`isActive\` is true 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      class="style={
+  alignItems: 'center',
+  display: 'flex',
+  flex: 1,
+  gap: '0.5rem',
+  overflow: 'hidden',
+}
+"
+    >
+      <span
+        class="style={ flex: 1, overflow: 'hidden' }
+"
+      >
+        <span
+          class="style={ overflow: 'hidden' }
+"
+          id="bui1__anchor"
+        >
+          <p
+            class="style={
+  WebkitBoxOrient: 'vertical',
+  WebkitLineClamp: 1,
+  color: '#0D1C77',
+  display: '-webkit-box',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body-small-mono)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  margin: 0,
+  overflow: 'hidden',
+  textAlign: 'start',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'pre-wrap',
+  wordBreak: 'break-all',
+}
+"
+            data-baseweb="typo-paragraphsmall"
+          >
+            Menu Item
+          </p>
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
+
+exports[`ItemLabel - tests > applies the disabled styles when \`disabled\` is true 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      class="style={
+  alignItems: 'center',
+  display: 'flex',
+  flex: 1,
+  gap: '0.5rem',
+  overflow: 'hidden',
+}
+"
+    >
+      <span
+        class="style={ flex: 1, overflow: 'hidden' }
+"
+      >
+        <span
+          class="style={ overflow: 'hidden' }
+"
+          id="bui1__anchor"
+        >
+          <p
+            class="style={
+  WebkitBoxOrient: 'vertical',
+  WebkitLineClamp: 1,
+  color: '#B4BAC5',
+  display: '-webkit-box',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body-small-mono)), 12px)',
+  fontWeight: '400',
+  lineHeight: 1.5,
+  margin: 0,
+  overflow: 'hidden',
+  textAlign: 'start',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'pre-wrap',
+  wordBreak: 'break-all',
+}
+"
+            data-baseweb="typo-paragraphsmall"
+          >
+            Menu Item
+          </p>
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;

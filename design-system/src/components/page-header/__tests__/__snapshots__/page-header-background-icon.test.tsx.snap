@@ -1,0 +1,99 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageHeaderBackgroundIcon - tests > should render the component correctly when screen is extrasmall 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      class="style={
+  alignItems: 'center',
+  background: '#FFFFFF',
+  borderRadius: '0.25rem',
+  display: 'flex',
+  flexShrink: 0,
+  height: '32px',
+  justifyContent: 'center',
+  padding: 0,
+  width: '32px',
+}
+"
+      data-testid="background-icon-next--wrapper"
+    >
+      <svg
+        aria-hidden="true"
+        color="#FFFFFF"
+        data-testid="background-icon-next--icon"
+        fill="currentColor"
+        focusable="false"
+        height="16px"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+        width="16px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.74,30,16,29l4-7h6a2,2,0,0,0,2-2V8a2,2,0,0,0-2-2H6A2,2,0,0,0,4,8V20a2,2,0,0,0,2,2h9v2H6a4,4,0,0,1-4-4V8A4,4,0,0,1,6,4H26a4,4,0,0,1,4,4V20a4,4,0,0,1-4,4H21.16Z"
+        />
+        <path
+          d="M8 10H24V12H8zM8 16H18V18H8z"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
+
+exports[`PageHeaderBackgroundIcon - tests > should render the component correctly when screen is small 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      class="style={
+  alignItems: 'center',
+  background: '#FFFFFF',
+  borderRadius: '0.25rem',
+  display: 'flex',
+  flexShrink: 0,
+  height: '32px',
+  justifyContent: 'center',
+  padding: 0,
+  width: '32px',
+}
+"
+      data-testid="background-icon-next--wrapper"
+    >
+      <svg
+        aria-hidden="true"
+        color="#FFFFFF"
+        data-testid="background-icon-next--icon"
+        fill="currentColor"
+        focusable="false"
+        height="16px"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 32 32"
+        width="16px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.74,30,16,29l4-7h6a2,2,0,0,0,2-2V8a2,2,0,0,0-2-2H6A2,2,0,0,0,4,8V20a2,2,0,0,0,2,2h9v2H6a4,4,0,0,1-4-4V8A4,4,0,0,1,6,4H26a4,4,0,0,1,4,4V20a4,4,0,0,1-4,4H21.16Z"
+        />
+        <path
+          d="M8 10H24V12H8zM8 16H18V18H8z"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;

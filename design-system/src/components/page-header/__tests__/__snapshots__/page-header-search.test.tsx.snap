@@ -1,0 +1,318 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PageHeaderSearch - tests > should render the component correctly when toolbar is no visible > when toolbar is no visible 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <div
+      class="style={
+  '@media screen and (min-width: 1024px)': {
+    display: 'none',
+  },
+  display: 'flex',
+}
+"
+    >
+      <button
+        class="style={
+  ':active': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    boxShadow: 'inset 999px 999px 0px rgba(0, 0, 0, 0.08) ',
+    color: '#52617A',
+  },
+  ':disabled': {
+    backgroundColor: '#EDEEF3',
+    color: '#B4BAC5',
+    cursor: 'not-allowed',
+  },
+  ':focus': {
+    backgroundColor: 'transparent',
+    borderColor: '#52617A',
+    color: '#52617A',
+  },
+  ':focus-visible': {
+    boxShadow: 'inset 0 0 0 2px #FFFFFF, 0 0 0 2px #276EF1 ',
+  },
+  ':focus-within': {
+    outline: '2px solid #334199',
+    outlineOffset: '-2px',
+  },
+  ':hover': {
+    backgroundColor: '#E0E3EB',
+    borderColor: '#E0E3EB',
+    color: '#52617A',
+  },
+  '@media (hover: hover)': {
+    ':hover': {
+      boxShadow: 'inset 999px 999px 0px rgba(0, 0, 0, 0.04) ',
+    },
+  },
+  '@media screen and (min-width: 640px)': {
+    height: '32px',
+    padding: 0,
+  },
+  WebkitAppearance: 'none',
+  alignItems: 'center',
+  backgroundColor: '#FFFFFF',
+  border: '1px solid',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderColor: '#E0E3EB',
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRadius: '0.25rem',
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxShadow: 'none',
+  boxSizing: 'border-box',
+  color: '#69768B',
+  cursor: 'pointer',
+  display: 'inline-flex',
+  flexDirection: 'row',
+  flexShrink: 0,
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: '14px',
+  fontWeight: 400,
+  height: '32px',
+  justifyContent: 'center',
+  lineHeight: '100%',
+  marginBottom: 0,
+  marginLeft: 0,
+  marginRight: 0,
+  marginTop: 0,
+  outline: 'none',
+  padding: 0,
+  paddingBottom: '14px',
+  paddingLeft: '16px',
+  paddingRight: '16px',
+  paddingTop: '14px',
+  textDecoration: 'none',
+  transition: 'color 200ms linear,border-color 200ms linear,background-color 200ms linear',
+  transitionDuration: '200ms',
+  transitionProperty: 'background',
+  transitionTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+  width: '32px',
+}
+"
+        data-baseweb="button"
+        data-testid="page-header-search--icon-button"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          color="#52617A"
+          fill="currentColor"
+          focusable="false"
+          height="16px"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15,14.3L10.7,10c1.9-2.3,1.6-5.8-0.7-7.7S4.2,0.7,2.3,3S0.7,8.8,3,10.7c2,1.7,5,1.7,7,0l4.3,4.3L15,14.3z M2,6.5 C2,4,4,2,6.5,2S11,4,11,6.5S9,11,6.5,11S2,9,2,6.5z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="style={
+  '@media screen and (min-width: 1024px)': {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  display: 'none',
+  maxWidth: '360px',
+  transition: 'max-width 0.25s ease-in-out',
+  width: '100%',
+}
+"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="true"
+      >
+        <div>
+          <div
+            class="style={
+  backgroundColor: '#F4F5F6',
+  border: 'none',
+  borderBottomColor: '#B4BAC5',
+  borderBottomLeftRadius: '0px',
+  borderBottomRightRadius: '0px',
+  borderBottomStyle: 'solid',
+  borderBottomWidth: '2px',
+  borderLeftColor: '#B4BAC5',
+  borderLeftStyle: 'solid',
+  borderLeftWidth: '2px',
+  borderRadius: '0.25rem',
+  borderRightColor: '#B4BAC5',
+  borderRightStyle: 'solid',
+  borderRightWidth: '2px',
+  borderTopColor: '#B4BAC5',
+  borderTopLeftRadius: '0px',
+  borderTopRightRadius: '0px',
+  borderTopStyle: 'solid',
+  borderTopWidth: '2px',
+  boxSizing: 'border-box',
+  cursor: 'text',
+  display: 'flex',
+  gap: '0.5rem',
+  outline: 'solid',
+  outlineColor: '#E0E3EB',
+  outlineWidth: '1px !important',
+  overflow: 'hidden',
+  paddingLeft: 0,
+  paddingRight: '1rem',
+  position: 'relative',
+  transition: 'background-color .1s ease-in-out',
+  transitionDuration: '200ms',
+  transitionProperty: 'border',
+  transitionTimingFunction: 'cubic-bezier(.2, .8, .4, 1)',
+  width: '100%',
+}
+"
+            data-baseweb="input"
+          >
+            <div
+              class="style={
+  alignItems: 'center',
+  backgroundColor: 'transparent',
+  color: '#52617A',
+  display: 'flex',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  justifyContent: 'center',
+  lineHeight: 1.5,
+  padding: 0,
+  paddingLeft: '8px',
+  paddingRight: '8px',
+  transitionDuration: '200ms',
+  transitionProperty: 'color, background-color',
+  transitionTimingFunction: 'cubic-bezier(.2, .8, .4, 1)',
+}
+"
+            >
+              <div
+                class="style={
+  alignItems: 'center',
+  display: 'flex',
+  gap: '1rem',
+  height: '100%',
+  paddingLeft: '1rem',
+}
+"
+              >
+                <div
+                  class="style={
+  alignItems: 'center',
+  color: '#171A1C',
+  display: 'flex',
+  gap: '0.5rem',
+}
+"
+                >
+                  <svg
+                    aria-hidden="true"
+                    fill="currentColor"
+                    focusable="false"
+                    height="16"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15,14.3L10.7,10c1.9-2.3,1.6-5.8-0.7-7.7S4.2,0.7,2.3,3S0.7,8.8,3,10.7c2,1.7,5,1.7,7,0l4.3,4.3L15,14.3z M2,6.5 C2,4,4,2,6.5,2S11,4,11,6.5S9,11,6.5,11S2,9,2,6.5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="style={
+  backgroundColor: 'transparent',
+  color: '#52617A',
+  display: 'flex',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  lineHeight: 1.5,
+  transitionDuration: '200ms',
+  transitionProperty: 'background-color',
+  transitionTimingFunction: 'cubic-bezier(.2, .8, .4, 1)',
+  width: '100%',
+}
+"
+              data-baseweb="base-input"
+            >
+              <input
+                aria-invalid="false"
+                aria-required="false"
+                autocomplete="on"
+                class="style={
+  '::placeholder': { color: '#69768B' },
+  ':disabled': {
+    backgroundColor: 'transparent',
+    color: '#B4BAC5',
+  },
+  backgroundColor: 'transparent',
+  borderBottomStyle: 'none',
+  borderBottomWidth: 0,
+  borderLeftStyle: 'none',
+  borderLeftWidth: 0,
+  borderRightStyle: 'none',
+  borderRightWidth: 0,
+  borderTopStyle: 'none',
+  borderTopWidth: 0,
+  boxSizing: 'border-box',
+  caretColor: '#52617A',
+  color: '#171A1C',
+  cursor: 'text',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'normal',
+  height: 'auto',
+  lineHeight: 1,
+  margin: '0',
+  maxWidth: '100%',
+  minHeight: '42px',
+  minWidth: 0,
+  outline: 'none',
+  paddingBottom: '0.5rem',
+  paddingLeft: '0',
+  paddingRight: '0',
+  paddingTop: '0.5rem',
+  pointerEvents: 'auto',
+  width: '100%',
+}
+"
+                data-testid="page-header-search"
+                inputmode="text"
+                name=""
+                placeholder="example placeholder"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;

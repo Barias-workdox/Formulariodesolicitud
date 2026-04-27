@@ -1,0 +1,1627 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks';
+import {
+  DynamicDialog,
+  DynamicDialogHeader,
+  DynamicDialogBody,
+  DynamicDialogFooter,
+} from "../index";
+import * as DynamicDialogStories from "./dynamic-dialog.stories";
+
+<Meta
+  of={DynamicDialogStories}
+  title="Components/Surfaces/DynamicDialog/next"
+  parameters={{
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/PbZuyyTRGoXBcqFm848rvy/%F0%9F%92%A0-Nuclear-Components?node-id=18867-269373&t=GSFTEoStHYqWPTEH-0",
+    },
+    docs: {
+      description: {
+        component:
+          "A modern and flexible dialog component that provides an advanced user experience with compound component pattern support, drag & drop functionality, resizing capabilities, responsive design, and real fullViewport mode using the browser's Fullscreen API.",
+      },
+    },
+  }}
+/>
+
+# DynamicDialog
+
+A modern and flexible dialog component that provides an advanced user experience with compound component pattern support, drag & drop functionality, resizing capabilities, responsive design, and real fullViewport mode using the browser's Fullscreen API.
+
+## Table of Contents
+
+- [Basic Usage](#basic-usage)
+- [Props API](#props-api)
+- [Examples](#examples)
+- [Rules and Best Practices](#rules-and-best-practices)
+
+```tsx
+import { DynamicDialog, DynamicDialogHeader, DynamicDialogBody, DynamicDialogFooter } from '@webdoxclm/design-system/components/dynamic-dialog/next'
+```
+
+## Basic Usage
+
+Minimum example to start using the component.
+
+<Story of={DynamicDialogStories.Default} />
+
+```tsx
+import { DynamicDialog, DynamicDialogHeader, DynamicDialogBody, DynamicDialogFooter } from '@webdoxclm/design-system/components/dynamic-dialog/next'
+
+export default function App() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  return (
+    <DynamicDialog isOpen={isOpen} onClose={() => setIsOpen(false)}>
+      <DynamicDialogHeader title="Basic Dialog" />
+      <DynamicDialogBody>
+        <p>Dialog content here...</p>
+      </DynamicDialogBody>
+      <DynamicDialogFooter>
+        <Button>Close</Button>
+      </DynamicDialogFooter>
+    </DynamicDialog>
+  )
+}
+```
+
+## Props API
+
+### DynamicDialog
+
+<table
+  style={{ width: "100%", borderCollapse: "collapse", marginBottom: "24px" }}
+>
+  <thead>
+    <tr
+      style={{ backgroundColor: "#f8f9fa", borderBottom: "2px solid #dee2e6" }}
+    >
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Property
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Type
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Default
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        isOpen
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        false
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Controls dialog visibility
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        placement
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        'topRight' \| 'topLeft' \| 'bottomRight' \| 'bottomLeft'
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        'bottomRight'
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Position of the dialog on screen
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        draggable
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        true
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Enables drag functionality
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        resizable
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        true
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Enables resize functionality
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        closable
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        true
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Allows dialog to be closed
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        fullViewport
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        false
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Activates real fullViewport mode using browser Fullscreen API
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        initialWidth
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        number
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        500
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Initial dialog width in pixels
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        initialHeight
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        number
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        700
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Initial dialog height in pixels
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        onClose
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        function
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Called when dialog closes
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### DynamicDialogHeader
+
+<table
+  style={{ width: "100%", borderCollapse: "collapse", marginBottom: "24px" }}
+>
+  <thead>
+    <tr
+      style={{ backgroundColor: "#f8f9fa", borderBottom: "2px solid #dee2e6" }}
+    >
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Property
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Type
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Default
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        title
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        string
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Main header title
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        description
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        string
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Optional description text
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        icon
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        ReactNode
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Icon displayed next to title
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        actions
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        ReactNode
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Additional action buttons
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        showDescription
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        true
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Controls description visibility
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        showActions
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        true
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Controls actions visibility
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        visible
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        true
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Controls header visibility
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        onBackButtonClick
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        function
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Back button click handler
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### DynamicDialogBody
+
+<table
+  style={{ width: "100%", borderCollapse: "collapse", marginBottom: "24px" }}
+>
+  <thead>
+    <tr
+      style={{ backgroundColor: "#f8f9fa", borderBottom: "2px solid #dee2e6" }}
+    >
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Property
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Type
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Default
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        children
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        ReactNode
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Main content of the dialog
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        padding
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        string
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Custom padding for the body
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        className
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        string
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Custom CSS class
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### DynamicDialogFooter
+
+<table
+  style={{ width: "100%", borderCollapse: "collapse", marginBottom: "24px" }}
+>
+  <thead>
+    <tr
+      style={{ backgroundColor: "#f8f9fa", borderBottom: "2px solid #dee2e6" }}
+    >
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Property
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Type
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Default
+      </th>
+      <th
+        style={{
+          padding: "12px",
+          textAlign: "left",
+          borderBottom: "1px solid #dee2e6",
+          fontWeight: "600",
+        }}
+      >
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        children
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        ReactNode
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Footer content (usually buttons)
+      </td>
+    </tr>
+    <tr style={{ backgroundColor: "#f8f9fa" }}>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        visible
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        boolean
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        true
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Controls footer visibility
+      </td>
+    </tr>
+    <tr>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        className
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        string
+      </td>
+      <td
+        style={{
+          padding: "12px",
+          borderBottom: "1px solid #dee2e6",
+          fontFamily: "monospace",
+        }}
+      >
+        undefined
+      </td>
+      <td style={{ padding: "12px", borderBottom: "1px solid #dee2e6" }}>
+        Custom CSS class
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Examples
+
+### Basic Dialog
+
+**Default Dialog**
+
+<Story of={DynamicDialogStories.Default} />
+
+```tsx
+<DynamicDialog isOpen={isOpen} onClose={() => setIsOpen(false)}>
+  <DynamicDialogHeader title="Basic Dialog" />
+  <DynamicDialogBody>
+    <p>Dialog content here...</p>
+  </DynamicDialogBody>
+  <DynamicDialogFooter>
+    <Button>Close</Button>
+  </DynamicDialogFooter>
+</DynamicDialog>
+```
+
+**Minimal Dialog**
+
+<Story of={DynamicDialogStories.Minimal} />
+
+```tsx
+<DynamicDialog isOpen={isOpen} onClose={() => setIsOpen(false)}>
+  <DynamicDialogBody>
+    <p>Simple content without header or footer</p>
+  </DynamicDialogBody>
+</DynamicDialog>
+```
+
+**With Back Button**
+
+<Story of={DynamicDialogStories.WithBackButton} />
+
+```tsx
+<DynamicDialog isOpen={isOpen} onClose={() => setIsOpen(false)}>
+  <DynamicDialogHeader 
+    title="Step 2: Details" 
+    description="Complete the information"
+    backButton={<BackButton onClick={goBack} />}
+  />
+  <DynamicDialogBody>
+    <p>Multi-step form content...</p>
+  </DynamicDialogBody>
+</DynamicDialog>
+```
+
+### Placement Examples
+
+**Top Left Placement**
+
+<Story of={DynamicDialogStories.TopLeftPlacement} />
+
+```tsx
+<DynamicDialog 
+  placement="topLeft" 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Dialog content */}
+</DynamicDialog>
+```
+
+**Top Right Placement**
+
+```tsx
+<DynamicDialog 
+  placement="topRight" 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Dialog content */}
+</DynamicDialog>
+```
+
+**Bottom Left Placement**
+
+```tsx
+<DynamicDialog 
+  placement="bottomLeft" 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Dialog content */}
+</DynamicDialog>
+```
+
+**Bottom Right Placement (Default)**
+
+```tsx
+<DynamicDialog 
+  placement="bottomRight" 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Dialog content */}
+</DynamicDialog>
+```
+
+### Size Examples
+
+**Large Dialog**
+
+<Story of={DynamicDialogStories.LargeDialog} />
+
+```tsx
+<DynamicDialog 
+  initialWidth={800} 
+  initialHeight={600} 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Large dialog content */}
+</DynamicDialog>
+```
+
+**Mobile Optimized Dialog**
+
+<Story of={DynamicDialogStories.Mobile} />
+
+```tsx
+<DynamicDialog 
+  initialWidth={400} 
+  initialHeight={500} 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Mobile-friendly content */}
+</DynamicDialog>
+```
+
+### Behavior Examples
+
+**Non-Closable Dialog**
+
+<Story of={DynamicDialogStories.NonClosable} />
+
+```tsx
+<DynamicDialog 
+  closable={false} 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Dialog that cannot be closed */}
+</DynamicDialog>
+```
+
+**Non-Draggable Dialog**
+
+<Story of={DynamicDialogStories.NonDraggable} />
+
+```tsx
+<DynamicDialog 
+  draggable={false} 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Dialog that cannot be dragged */}
+</DynamicDialog>
+```
+
+**Non-Resizable Dialog**
+
+<Story of={DynamicDialogStories.NonResizable} />
+
+```tsx
+<DynamicDialog 
+  resizable={false} 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* Dialog that cannot be resized */}
+</DynamicDialog>
+```
+
+**FullViewport Dialog**
+
+<Story of={DynamicDialogStories.FullViewport} />
+
+```tsx
+<DynamicDialog 
+  fullViewport 
+  isOpen={isOpen} 
+  onClose={() => setIsOpen(false)}
+>
+  {/* FullViewport content */}
+</DynamicDialog>
+```
+
+### Content Examples
+
+**Scrollable Content**
+
+<Story of={DynamicDialogStories.ScrollableContent} />
+
+```tsx
+<DynamicDialog isOpen={isOpen} onClose={() => setIsOpen(false)}>
+  <DynamicDialogHeader title="Long Content" />
+  <DynamicDialogBody>
+    {/* Content that exceeds dialog height will scroll automatically */}
+    <div style={{ height: '1000px' }}>
+      <p>Very long content...</p>
+    </div>
+  </DynamicDialogBody>
+</DynamicDialog>
+```
+
+### Header Examples
+
+**Basic Header**
+
+<Story of={DynamicDialogStories.HeaderBasic} />
+
+```tsx
+<DynamicDialogHeader
+  title="User Settings"
+  description="Configure your account preferences and settings"
+  icon={<SettingsIcon />}
+/>
+```
+
+**Header with Actions**
+
+<Story of={DynamicDialogStories.HeaderWithActions} />
+
+```tsx
+<DynamicDialogHeader
+  title="Edit Profile"
+  description="Update your personal information"
+  icon={<UserIcon />}
+  actions={
+    <div style={{ display: "flex", gap: "8px" }}>
+      <Button size="32px">Reset</Button>
+      <Button size="32px" kind="primary">Preview</Button>
+    </div>
+  }
+/>
+```
+
+**Minimal Header**
+
+<Story of={DynamicDialogStories.HeaderMinimal} />
+
+```tsx
+<DynamicDialogHeader
+  title="Simple Dialog"
+  showDescription={false}
+  showActions={false}
+/>
+```
+
+### Body Examples
+
+**Basic Content**
+
+<Story of={DynamicDialogStories.BodyBasic} />
+
+```tsx
+<DynamicDialogBody>
+  <div>
+    <h3>Welcome to our platform</h3>
+    <p>This is the main content area of the dialog.</p>
+    <p>Content will automatically scroll if it exceeds the available space.</p>
+  </div>
+</DynamicDialogBody>
+```
+
+**Custom Padding**
+
+<Story of={DynamicDialogStories.BodyCustomPadding} />
+
+```tsx
+<DynamicDialogBody padding="32px">
+  <div style={{ textAlign: "center" }}>
+    <h2>Centered Content</h2>
+    <p>This content uses custom padding for better spacing.</p>
+  </div>
+</DynamicDialogBody>
+```
+
+**Form Content**
+
+<Story of={DynamicDialogStories.BodyForm} />
+
+```tsx
+<DynamicDialogBody padding="24px">
+  <form>
+    <div style={{ marginBottom: "16px" }}>
+      <label style={{ display: "block", marginBottom: "4px", fontWeight: "500" }}>
+        Name:
+      </label>
+      <input
+        type="text"
+        placeholder="Enter your name"
+        style={{
+          width: "100%",
+          padding: "8px",
+          border: "1px solid #ccc",
+          borderRadius: "4px",
+        }}
+      />
+    </div>
+    <div style={{ marginBottom: "16px" }}>
+      <label style={{ display: "block", marginBottom: "4px", fontWeight: "500" }}>
+        Email:
+      </label>
+      <input
+        type="email"
+        placeholder="Enter your email"
+        style={{
+          width: "100%",
+          padding: "8px",
+          border: "1px solid #ccc",
+          borderRadius: "4px",
+        }}
+      />
+    </div>
+  </form>
+</DynamicDialogBody>
+```
+
+### Footer Examples
+
+**Standard Footer**
+
+<Story of={DynamicDialogStories.FooterStandard} />
+
+```tsx
+<DynamicDialogFooter>
+  <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
+    <Button>Cancel</Button>
+    <Button kind="primary">Save Changes</Button>
+  </div>
+</DynamicDialogFooter>
+```
+
+**Multiple Action Groups**
+
+<Story of={DynamicDialogStories.FooterMultipleActions} />
+
+```tsx
+<DynamicDialogFooter>
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+    }}
+  >
+    <div style={{ display: "flex", gap: "8px" }}>
+      <Button kind="tertiary" size="32px">Help</Button>
+      <Button kind="tertiary" size="32px">Documentation</Button>
+    </div>
+    <div style={{ display: "flex", gap: "8px" }}>
+      <Button>Reset</Button>
+      <Button kind="primary">Apply</Button>
+    </div>
+  </div>
+</DynamicDialogFooter>
+```
+
+**Hidden Footer**
+
+<Story of={DynamicDialogStories.FooterHidden} />
+
+```tsx
+<DynamicDialogFooter visible={false}>
+  <Button>This won't be visible</Button>
+</DynamicDialogFooter>
+```
+
+## Rules and Best Practices
+
+### Back Button and Icon Usage
+
+**❌ Avoid using back button and icon together**
+- It's recommended not to use the back button alongside an icon
+- Prioritize using one or the other based on the usage context
+
+```tsx
+// ❌ Bad - Both back button and icon - Only in specific cases and validated by the design team
+<DynamicDialogHeader
+  title="Step 2: Details"
+  icon={<FormIcon />}
+  backButton={<BackButton onClick={goBack} />}
+/>
+
+// ✅ Good - Only back button
+<DynamicDialogHeader
+  title="Step 2: Details"
+  backButton={<BackButton onClick={goBack} />}
+/>
+
+// ✅ Good - Only icon
+<DynamicDialogHeader
+  title="User Settings"
+  icon={<SettingsIcon />}
+/>
+```
+
+### Single Dynamic Dialog Rule
+
+**❌ Never use multiple Dynamic dialogs on the same screen**
+- If a view can execute two "Dynamic" components for different contexts (e.g., one for comments and another for Brain or Legal chat), only one can remain open
+- Other visible dialogs on screen must be automatically closed or minimized
+
+```tsx
+// ❌ Bad - Multiple dialogs open simultaneously
+const [commentsOpen, setCommentsOpen] = useState(false)
+const [chatOpen, setChatOpen] = useState(false)
+
+// ✅ Good - Only one dialog open at a time
+const [activeDialog, setActiveDialog] = useState(null)
+
+const openComments = () => {
+  setActiveDialog('comments')
+  setChatOpen(false) // Close other dialog
+}
+
+const openChat = () => {
+  setActiveDialog('chat')
+  setCommentsOpen(false) // Close other dialog
+}
+```
+
+### Header Action Saturation
+
+**❌ Avoid excessive actions that compromise the title or left-side elements**
+- Keep header actions minimal and focused
+- Don't overcrowd the header with too many buttons or controls
+
+```tsx
+// ❌ Bad - Too many actions crowding the header
+<DynamicDialogHeader
+  title="User Profile"
+  actions={
+    <div style={{ display: "flex", gap: "4px" }}>
+      <Button size="24px">Edit</Button>
+      <Button size="24px">Delete</Button>
+      <Button size="24px">Export</Button>
+      <Button size="24px">Share</Button>
+      <Button size="24px">Archive</Button>
+    </div>
+  }
+/>
+
+// ✅ Good - Minimal, focused actions
+<DynamicDialogHeader
+  title="User Profile"
+  actions={
+    <div style={{ display: "flex", gap: "8px" }}>
+      <Button size="32px">Edit</Button>
+      <Button size="32px" kind="primary">Save</Button>
+    </div>
+  }
+/>
+```
+
+### Action Height Limitations
+
+**❌ Avoid using components with height greater than 32px**
+- Keep action elements within the 32px height limit
+- This ensures proper alignment and visual consistency
+
+```tsx
+// ❌ Bad - Actions taller than 32px
+<DynamicDialogHeader
+  title="Document Editor"
+  actions={
+    <Button size="40px">Large Button</Button> // Too tall
+  }
+/>
+
+// ✅ Good - Actions within 32px height limit
+<DynamicDialogHeader
+  title="Document Editor"
+  actions={
+    <Button size="32px">Edit</Button> // Correct height
+  }
+/>
+```
+
+### Additional Actions Guidelines
+
+**Use additional actions sparingly and purposefully**
+
+#### IconButton Actions (1-2 recommended)
+```tsx
+// ✅ Good - 1-2 IconButton actions
+<DynamicDialogHeader
+  title="File Manager"
+  actions={
+    <div style={{ display: "flex", gap: "8px" }}>
+      <IconButton icon={<RefreshIcon />} />
+      <IconButton icon={<SettingsIcon />} />
+    </div>
+  }
+/>
+```
+
+#### Other Element Actions (1 recommended)
+```tsx
+// ✅ Good - Single action for other elements
+<DynamicDialogHeader
+  title="User Settings"
+  actions={
+    <Button size="32px" kind="primary">Save</Button>
+  }
+/>
+```
+
+#### Multiple Actions Solution
+**When you need more actions than can be displayed visually, use a dropdown:**
+
+```tsx
+// ✅ Good - Dropdown for multiple actions
+<DynamicDialogHeader
+  title="Advanced Settings"
+  actions={
+    <div style={{ display: "flex", gap: "8px" }}>
+      <Button size="32px">Save</Button>
+      <Dropdown
+        trigger={<Button size="32px">More Actions</Button>}
+        items={[
+          { label: 'Export', onClick: handleExport },
+          { label: 'Import', onClick: handleImport },
+          { label: 'Reset', onClick: handleReset },
+          { label: 'Archive', onClick: handleArchive }
+        ]}
+      />
+    </div>
+  }
+/>
+```
+
+### Summary of Key Rules
+
+1. **Back Button + Icon**: Use one or the other, not both
+2. **Single Dialog**: Only one Dynamic dialog open per screen
+3. **Header Actions**: Keep minimal and don't overcrowd
+4. **Action Height**: Maximum 32px height for all actions
+5. **Action Count**: 1-2 IconButtons or 1 other element
+6. **Multiple Actions**: Use dropdown for overflow actions
+
+Following these rules ensures a consistent, user-friendly experience across all Dynamic dialog implementations.
+
+### Component Implementation
+
+The component automatically applies these data-testids to the appropriate elements:
+
+```tsx
+<DynamicDialog
+  dataTestId="user-settings"
+  isOpen={isOpen}
+  onClose={() => setIsOpen(false)}
+>
+  <DynamicDialogHeader
+    dataTestId="profile-edit"
+    title="Edit Profile"
+  />
+  <DynamicDialogBody
+    dataTestId="form-content"
+  >
+    {/* Form content */}
+  </DynamicDialogBody>
+  <DynamicDialogFooter
+    dataTestId="action-buttons"
+  >
+    <Button>Cancel</Button>
+    <Button kind="primary">Save</Button>
+  </DynamicDialogFooter>
+</DynamicDialog>
+// Result: 'dynamic-dialog-user-settings', 'dynamic-dialog-header-profile-edit', etc.
+```
+
+
+
+### Best Practices
+
+1. **Use descriptive custom IDs**: Choose meaningful identifiers that describe the dialog's purpose
+2. **Keep IDs consistent**: Use the same custom ID across all sub-components of a dialog
+3. **Avoid special characters**: Use only letters, numbers, and hyphens in custom IDs
+4. **Test ID uniqueness**: Ensure generated test IDs are unique within your test suite
+
+```tsx
+// ✅ Good - Descriptive and consistent
+const dialogId = 'user-profile-edit';
+<DynamicDialog dataTestId={dialogId}>
+  <DynamicDialogHeader dataTestId={dialogId} />
+  <DynamicDialogBody dataTestId={dialogId} />
+  <DynamicDialogFooter dataTestId={dialogId} />
+</DynamicDialog>
+
+// ❌ Bad - Inconsistent and unclear
+<DynamicDialog dataTestId="dialog1">
+  <DynamicDialogHeader dataTestId="header" />
+  <DynamicDialogBody dataTestId="body" />
+  <DynamicDialogFooter dataTestId="footer" />
+</DynamicDialog>
+```

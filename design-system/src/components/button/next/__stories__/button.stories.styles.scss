@@ -1,0 +1,99 @@
+table {
+  border-collapse: collapse;
+  margin: 1rem;
+  width: calc(100% - 2rem);
+  font-family: arial;
+
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+  }
+}
+
+.labelStyle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  text-transform: capitalize;
+  white-space: nowrap;
+  padding: 8px 12px;
+}
+
+.cellStyle {
+  padding: 6px 12px;
+  vertical-align: middle;
+}
+
+th {
+  @extend .labelStyle;
+  @extend .cellStyle;
+  text-align: center;
+  padding: 12px;
+}
+
+td {
+  @extend .cellStyle;
+  transition: background-color 0.3s ease-out;
+}
+
+.appearanceLabel {
+  @extend .labelStyle;
+  width: 1px;
+}
+
+.stateLabel {
+  @extend .labelStyle;
+  font-weight: 400 !important;
+  width: 1px;
+
+  // Reserve space for bold text to prevent width shift on hover
+  &::after {
+    content: attr(data-text);
+    font-weight: 600;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    pointer-events: none;
+    display: block;
+  }
+}
+
+tr {
+  &:hover {
+    .stateLabel {
+      font-weight: 600 !important;
+    }
+
+    &.contrast {
+      .stateLabel {
+        background-color: #82ff74;
+        color: #283242;
+      }
+    }
+
+    &:not(.contrast) {
+      .stateLabel {
+        background-color: #fff8a9;
+      }
+    }
+  }
+}
+
+.contrast {
+  background-color: #283242;
+  color: #fff;
+
+  .labelStyle {
+    color: #fff;
+  }
+}
+
+th.contrast {
+  color: #fff;
+}
+
+.separator {
+  border-top: 4px solid #EDEEF3;
+}

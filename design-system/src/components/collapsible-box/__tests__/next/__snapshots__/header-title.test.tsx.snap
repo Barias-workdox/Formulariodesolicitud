@@ -1,0 +1,89 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HeaderTitle - tests > should render the component correctly when \`size\` is \`large\` > when size is large 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <span
+      class="style={ overflow: 'hidden' }
+"
+      id="bui1__anchor"
+    >
+      <p
+        class="style={
+  WebkitBoxOrient: 'vertical',
+  WebkitLineClamp: 1,
+  color: '#283242',
+  display: '-webkit-box',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body)), 12px)',
+  fontWeight: 'bold',
+  lineHeight: 1.5,
+  margin: 0,
+  overflow: 'hidden',
+  overflowX: null,
+  overflowY: null,
+  textAlign: 'start',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'pre-wrap',
+  wordBreak: 'break-all',
+}
+"
+        data-baseweb="typo-paragraphmedium"
+      >
+        Title
+      </p>
+    </span>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
+
+exports[`HeaderTitle - tests > should render the component correctly when \`size\` is \`small\` > when size is small 1`] = `
+<DocumentFragment>
+  <div
+    class="style={}
+"
+  >
+    <span
+      class="style={ overflow: 'hidden' }
+"
+      id="bui1__anchor"
+    >
+      <p
+        class="style={
+  WebkitBoxOrient: 'vertical',
+  WebkitLineClamp: 1,
+  color: '#283242',
+  display: '-webkit-box',
+  fontFamily: '"Albert Sans", sans-serif',
+  fontSize: 'max(calc(var(--font-base-size) * var(--font-scale-body-small-mono)), 12px)',
+  fontWeight: 'bold',
+  lineHeight: 1.5,
+  margin: 0,
+  overflow: 'hidden',
+  overflowX: null,
+  overflowY: null,
+  textAlign: 'start',
+  textOverflow: 'ellipsis',
+  whiteSpace: 'pre-wrap',
+  wordBreak: 'break-all',
+}
+"
+        data-baseweb="typo-paragraphsmall"
+      >
+        Title
+      </p>
+    </span>
+  </div>
+  <div
+    class="style={}
+"
+  />
+</DocumentFragment>
+`;
