@@ -1,0 +1,1 @@
+{"version":3,"file":"inline-edit-input.interfaces.js","sources":["../../../../src/components/inline-edit-input/next/inline-edit-input.interfaces.ts"],"sourcesContent":["export enum InlineEditInputMode {\n  CAPTION = 'caption',\n  INPUT = 'input',\n}\n"],"names":["InlineEditInputMode"],"mappings":"AAAO,IAAKA,sBAAAA,OACVA,EAAA,UAAU,WACVA,EAAA,QAAQ,SAFEA,IAAAA,KAAA,CAAA,CAAA;"}

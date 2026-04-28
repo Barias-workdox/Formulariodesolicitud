@@ -1,0 +1,1 @@
+export * from '../../components/select/next/select.overrides.d'

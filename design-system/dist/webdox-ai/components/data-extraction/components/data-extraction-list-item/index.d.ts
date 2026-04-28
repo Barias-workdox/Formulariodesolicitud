@@ -1,0 +1,1 @@
+export * from '../../../../../components/webdox-ai/components/data-extraction/components/data-extraction-list-item/index.d'

@@ -1,0 +1,1 @@
+{"version":3,"file":"legal-whisper-layout.constants.js","sources":["../../../../../src/components/webdox-ai/components/legal-whisper-layout/legal-whisper-layout.constants.ts"],"sourcesContent":["export const LEFT_COLUMN_WIDTH = '284px';\n\nexport const RIGHT_COLUMN_WIDTH = '400px';\n"],"names":["LEFT_COLUMN_WIDTH","RIGHT_COLUMN_WIDTH"],"mappings":"AAAO,MAAMA,IAAoB,SAEpBC,IAAqB;"}

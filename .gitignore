@@ -1,8 +1,10 @@
 node_modules/
-dist/
+smart-contract-form/dist/
 .DS_Store
 .env
 .env.local
 *.log
 .vite/
 .eslintcache
+!design-system/dist/
+!design-system/dist/**

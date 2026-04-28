@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/components/contract-negotiation/documents-tab/documents-tab.js'

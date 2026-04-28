@@ -1,0 +1,1 @@
+export * from '../components/delete-modal/delete-modal.styles.js'

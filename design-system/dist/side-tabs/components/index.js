@@ -1,0 +1,1 @@
+export * from '../../components/side-tabs/components/index.js'

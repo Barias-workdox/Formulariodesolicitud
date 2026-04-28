@@ -1,0 +1,1 @@
+export * from '../../components/decision-tree/components/tree-rule.d'

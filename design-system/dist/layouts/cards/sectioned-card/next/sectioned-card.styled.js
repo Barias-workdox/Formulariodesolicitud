@@ -1,0 +1,1 @@
+export * from '../../../../components/layouts/cards/sectioned-card/next/sectioned-card.styled.js'

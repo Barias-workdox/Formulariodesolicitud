@@ -1,0 +1,1 @@
+export * from '../../../components/message-card/components/message-card-title/message-card-title.styles.js'

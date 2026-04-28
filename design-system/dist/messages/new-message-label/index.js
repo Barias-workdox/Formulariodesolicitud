@@ -1,0 +1,1 @@
+export * from '../../components/messages/new-message-label/index.js'

@@ -1,0 +1,1 @@
+export * from '../../../../../components/webdox-ai/components/legal-whisper-answer-rating/components/success-message-step/index.d'

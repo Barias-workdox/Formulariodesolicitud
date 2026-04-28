@@ -1,0 +1,1 @@
+export * from '../../../../components/message-box/next/__stories__/story-layout/message-box-slot-example.d'

@@ -1,0 +1,1 @@
+export * from '../../../components/delete-modal/components/steps/starting-delete-modal-step.js'

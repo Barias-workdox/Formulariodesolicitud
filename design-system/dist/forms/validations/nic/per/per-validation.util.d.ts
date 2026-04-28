@@ -1,0 +1,1 @@
+export * from '../../../../components/forms/validations/nic/per/per-validation.util.d'

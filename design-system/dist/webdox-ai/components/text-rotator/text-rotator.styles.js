@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/components/text-rotator/text-rotator.styles.js'

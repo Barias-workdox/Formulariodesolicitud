@@ -1,0 +1,1 @@
+export * from '../../components/utils/i18n/i18n.constants.d'

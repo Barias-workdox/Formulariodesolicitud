@@ -1,0 +1,1 @@
+export * from '../../../../components/webdox-ai/components/webdox-ai-document-viewer-wrapper/hooks/use-translate-action-languages.hook.d'

@@ -1,0 +1,1 @@
+export * from '../../../../../../components/collaboration/components/contract-negotiation/activity-tab/components/third-party-status/index.d'

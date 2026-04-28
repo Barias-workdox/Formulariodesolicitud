@@ -1,0 +1,1 @@
+export * from '../../components/layouts/full-screen-layout/index.d'

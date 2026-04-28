@@ -1,0 +1,1 @@
+export * from '../../components/webdox-ai/interfaces/chat-bot-component.interface.js'

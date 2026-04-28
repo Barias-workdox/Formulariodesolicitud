@@ -1,0 +1,1 @@
+export * from '../components/403/403.d'

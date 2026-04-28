@@ -1,0 +1,1 @@
+{"version":3,"file":"avatar.styles.js","sources":["../../../src/components/avatar/avatar.styles.tsx"],"sourcesContent":["import { themedStyled } from '@themes/utilities';\n\nexport const AvatarAnchor = themedStyled('div', () => ({ width: 'fit-content' }));\n"],"names":["AvatarAnchor","themedStyled"],"mappings":";AAEO,MAAMA,IAAeC,EAAa,OAAO,OAAO,EAAE,OAAO,gBAAgB;"}

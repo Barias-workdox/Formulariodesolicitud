@@ -1,0 +1,1 @@
+export * from '../../../components/message-box/next/styled-components/styled-addons-container.d'

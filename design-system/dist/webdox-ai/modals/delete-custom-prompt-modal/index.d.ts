@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/modals/delete-custom-prompt-modal/index.d'

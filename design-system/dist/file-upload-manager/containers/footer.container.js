@@ -1,0 +1,1 @@
+export * from '../../components/file-upload-manager/containers/footer.container.js'

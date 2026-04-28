@@ -1,0 +1,1 @@
+export * from '../../components/header-tab/constants/header-tabs.constants.js'

@@ -1,0 +1,1 @@
+export * from '../../components/forms/interfaces/form.interface.d'

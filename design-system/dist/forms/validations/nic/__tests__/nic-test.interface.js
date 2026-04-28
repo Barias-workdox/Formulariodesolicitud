@@ -1,0 +1,1 @@
+export * from '../../../../components/forms/validations/nic/__tests__/nic-test.interface.js'

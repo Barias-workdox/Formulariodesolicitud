@@ -1,0 +1,1 @@
+{"version":3,"file":"table-menu.styles.js","sources":["../../../../../src/components/table/components/table-menu/table-menu.styles.ts"],"sourcesContent":["import type { StyleObject } from 'styletron-react';\n\nexport const tableMenuContainerStyles: StyleObject = {\n  display: 'flex',\n};\n"],"names":["tableMenuContainerStyles"],"mappings":"AAEO,MAAMA,IAAwC;AAAA,EACnD,SAAS;AACX;"}

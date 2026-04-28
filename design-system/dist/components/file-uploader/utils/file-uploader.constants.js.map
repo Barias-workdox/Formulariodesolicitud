@@ -1,0 +1,1 @@
+{"version":3,"file":"file-uploader.constants.js","sources":["../../../../src/components/file-uploader/utils/file-uploader.constants.ts"],"sourcesContent":["export const DEFAULT_FILE_EXTENSION_NAMES =\n  'PDF, Word, PowerPoint, Excel,  XML Spreadsheet, XML PPT, XML, PNG, JPG, JPEG';\n"],"names":["DEFAULT_FILE_EXTENSION_NAMES"],"mappings":"AAAO,MAAMA,IACX;"}

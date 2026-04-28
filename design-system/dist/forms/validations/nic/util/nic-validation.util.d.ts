@@ -1,0 +1,1 @@
+export * from '../../../../components/forms/validations/nic/util/nic-validation.util.d'

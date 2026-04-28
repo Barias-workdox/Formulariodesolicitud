@@ -1,0 +1,1 @@
+export * from '../../../components/dynamic-dialog/next/components/resize-handles.d'

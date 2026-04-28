@@ -1,0 +1,1 @@
+{"version":3,"file":"form.constants.js","sources":["../../src/constants/form.constants.ts"],"sourcesContent":["export const TEXT_AREA_LENGTH: Record<string, number> = {\n  small: 255,\n  large: 2500,\n};\n"],"names":["TEXT_AREA_LENGTH"],"mappings":"AAAO,MAAMA,IAA2C;AAAA,EACtD,OAAO;AAAA,EACP,OAAO;AACT;"}

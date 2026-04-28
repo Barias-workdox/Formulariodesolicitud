@@ -1,0 +1,1 @@
+{"version":3,"file":"use-message-composer.constants.js","sources":["../../../src/hooks/use-message-composer/use-message-composer.constants.ts"],"sourcesContent":["export const DEFAULT_MAX_LENGTH = 2048;\n"],"names":["DEFAULT_MAX_LENGTH"],"mappings":"AAAO,MAAMA,IAAqB;"}

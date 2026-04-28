@@ -1,0 +1,1 @@
+export * from '../../../components/collaboration/document-approval-details/document-approval-details-last-update/document-approval-details-last-update.d'

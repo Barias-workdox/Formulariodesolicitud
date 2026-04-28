@@ -1,0 +1,1 @@
+export * from '../../../../components/messages/message-composer/containers/default-composer-textarea-container/default-composer-textarea-container.d'

@@ -1,0 +1,1 @@
+{"version":3,"file":"data-extraction.constants.js","sources":["../../../../../src/components/webdox-ai/components/data-extraction/data-extraction.constants.ts"],"sourcesContent":["export const METADATA_TYPES = ['money', 'date', 'list', 'ref', 'string'];\n"],"names":["METADATA_TYPES"],"mappings":"AAAO,MAAMA,IAAiB,CAAC,SAAS,QAAQ,QAAQ,OAAO,QAAQ;"}

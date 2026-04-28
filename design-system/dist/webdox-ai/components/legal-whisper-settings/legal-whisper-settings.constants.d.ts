@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/components/legal-whisper-settings/legal-whisper-settings.constants.d'

@@ -1,0 +1,1 @@
+{"version":3,"file":"virtualized-list.constants.js","sources":["../../../src/components/list/virtualized-list.constants.ts"],"sourcesContent":["/**\n * The number of items to render beyond the visible items to account for scroll inertia.\n */\nexport const VIRTUALIZED_LIST_OVERSCAN = 1;\n"],"names":["VIRTUALIZED_LIST_OVERSCAN"],"mappings":"AAGO,MAAMA,IAA4B;"}

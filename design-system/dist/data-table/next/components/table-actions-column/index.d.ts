@@ -1,0 +1,1 @@
+export * from '../../../../components/data-table/next/components/table-actions-column/index.d'

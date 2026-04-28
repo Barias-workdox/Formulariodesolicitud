@@ -1,0 +1,1 @@
+export * from '../../components/404/next/not-found-404.styles.d'

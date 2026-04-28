@@ -1,0 +1,1 @@
+export * from '../../components/tabs/hooks/use-tabs-overrides.d'

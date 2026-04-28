@@ -1,0 +1,1 @@
+export * from '../../components/forms/constants/email-validation.constants.d'

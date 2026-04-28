@@ -1,0 +1,1 @@
+export * from '../../components/header/constants/data-test-id.constant.d'

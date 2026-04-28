@@ -1,0 +1,1 @@
+{"version":3,"file":"feed-file.constants.js","sources":["../../../src/components/feed-file/feed-file.constants.tsx"],"sourcesContent":["export const BASE_DATA_TEST_ID = 'feed-file';\n"],"names":["BASE_DATA_TEST_ID"],"mappings":"AAAO,MAAMA,IAAoB;"}

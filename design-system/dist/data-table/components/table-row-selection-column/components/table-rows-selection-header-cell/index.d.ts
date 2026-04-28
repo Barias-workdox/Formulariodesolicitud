@@ -1,0 +1,1 @@
+export * from '../../../../../components/data-table/components/table-row-selection-column/components/table-rows-selection-header-cell/index.d'

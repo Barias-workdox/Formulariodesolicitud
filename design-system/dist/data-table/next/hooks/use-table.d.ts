@@ -1,0 +1,1 @@
+export * from '../../../components/data-table/next/hooks/use-table.d'

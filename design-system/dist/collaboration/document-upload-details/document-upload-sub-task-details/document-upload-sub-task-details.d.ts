@@ -1,0 +1,1 @@
+export * from '../../../components/collaboration/document-upload-details/document-upload-sub-task-details/document-upload-sub-task-details.d'

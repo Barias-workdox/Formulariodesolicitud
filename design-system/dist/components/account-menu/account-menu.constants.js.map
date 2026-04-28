@@ -1,0 +1,1 @@
+{"version":3,"file":"account-menu.constants.js","sources":["../../../src/components/account-menu/account-menu.constants.ts"],"sourcesContent":["export const ACCOUNT_MENU_MIN_WIDTH = '240px';\n\nexport const ACCOUNT_MENU_MAX_WIDTH = '280px';\n"],"names":["ACCOUNT_MENU_MIN_WIDTH","ACCOUNT_MENU_MAX_WIDTH"],"mappings":"AAAO,MAAMA,IAAyB,SAEzBC,IAAyB;"}

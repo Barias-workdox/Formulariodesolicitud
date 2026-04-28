@@ -1,0 +1,1 @@
+export * from '../../../components/page-header/components/search-icon-button-with-modal/search-icon-button-with-modal.overrides.js'

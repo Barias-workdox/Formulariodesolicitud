@@ -1,0 +1,1 @@
+export * from '../../components/footer/constants/footer.constants.js'

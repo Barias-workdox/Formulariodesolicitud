@@ -1,0 +1,1 @@
+export * from '../../../components/radio/components/bordered-radio/index.d'

@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/components/styled-chat-bot-generative-text-controller/index.js'

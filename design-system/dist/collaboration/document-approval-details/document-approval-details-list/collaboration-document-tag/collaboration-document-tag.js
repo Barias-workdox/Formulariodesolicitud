@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/document-approval-details/document-approval-details-list/collaboration-document-tag/collaboration-document-tag.js'

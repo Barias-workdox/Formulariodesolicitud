@@ -1,0 +1,1 @@
+export * from '../../../components/filters-group/components/extra-filters-icon-button/index.d'

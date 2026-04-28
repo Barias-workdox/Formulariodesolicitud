@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/controllers/assistant-controller/index.js'

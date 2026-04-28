@@ -1,0 +1,1 @@
+export * from '../../../components/information-popover/components/information-popover-header/information-popover-header.interfaces.js'

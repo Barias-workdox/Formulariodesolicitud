@@ -1,0 +1,1 @@
+export * from '../../components/collapsible-box/interfaces/collapsible-box.interfaces.d'

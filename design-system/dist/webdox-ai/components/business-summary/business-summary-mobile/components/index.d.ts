@@ -1,0 +1,1 @@
+export * from '../../../../../components/webdox-ai/components/business-summary/business-summary-mobile/components/index.d'

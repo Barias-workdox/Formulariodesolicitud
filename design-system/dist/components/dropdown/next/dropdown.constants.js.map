@@ -1,0 +1,1 @@
+{"version":3,"file":"dropdown.constants.js","sources":["../../../../src/components/dropdown/next/dropdown.constants.ts"],"sourcesContent":["export const DROPDOWN_MIN_WIDTH = 320;\n"],"names":["DROPDOWN_MIN_WIDTH"],"mappings":"AAAO,MAAMA,IAAqB;"}

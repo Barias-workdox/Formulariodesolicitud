@@ -1,0 +1,1 @@
+export * from '../../../../components/message-box/next/components/compact-message-box-actions/compact-message-box-actions.d'

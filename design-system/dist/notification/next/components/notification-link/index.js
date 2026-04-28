@@ -1,0 +1,1 @@
+export * from '../../../../components/notification/next/components/notification-link/index.js'

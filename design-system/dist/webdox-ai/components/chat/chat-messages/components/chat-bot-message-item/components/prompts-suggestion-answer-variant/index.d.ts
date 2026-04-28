@@ -1,0 +1,1 @@
+export * from '../../../../../../../../components/webdox-ai/components/chat/chat-messages/components/chat-bot-message-item/components/prompts-suggestion-answer-variant/index.d'

@@ -1,0 +1,1 @@
+{"version":3,"file":"noop.js","sources":["../../src/utils/noop.ts"],"sourcesContent":["/**\n * No operation function\n */\nexport const noop = <T = Promise<void>>(): T => undefined;\n"],"names":["noop"],"mappings":"AAGO,MAAMA,IAAO,MAAA;AAAA;"}

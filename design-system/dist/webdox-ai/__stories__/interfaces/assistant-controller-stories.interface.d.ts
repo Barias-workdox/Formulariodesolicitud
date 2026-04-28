@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/__stories__/interfaces/assistant-controller-stories.interface.d'

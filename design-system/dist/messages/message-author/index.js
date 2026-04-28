@@ -1,0 +1,1 @@
+export * from '../../components/messages/message-author/index.js'

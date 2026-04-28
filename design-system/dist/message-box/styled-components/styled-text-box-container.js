@@ -1,0 +1,1 @@
+export * from '../../components/message-box/styled-components/styled-text-box-container.js'

@@ -1,0 +1,1 @@
+export * from '../../../../../components/webdox-ai/components/webdox-ai-button-information-popover/components/legal-whisper-greetings-information-popover/index.js'

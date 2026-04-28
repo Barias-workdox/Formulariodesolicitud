@@ -1,0 +1,1 @@
+export * from '../components/oauth-button/oauth-button.d'

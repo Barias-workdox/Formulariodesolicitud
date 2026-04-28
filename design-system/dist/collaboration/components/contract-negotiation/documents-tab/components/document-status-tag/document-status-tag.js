@@ -1,0 +1,1 @@
+export * from '../../../../../../components/collaboration/components/contract-negotiation/documents-tab/components/document-status-tag/document-status-tag.js'

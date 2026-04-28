@@ -1,0 +1,1 @@
+export * from '../../../components/list/components/avatar-list-item/avatar-list-item.d'

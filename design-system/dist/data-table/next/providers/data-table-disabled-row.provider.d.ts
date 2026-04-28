@@ -1,0 +1,1 @@
+export * from '../../../components/data-table/next/providers/data-table-disabled-row.provider.d'

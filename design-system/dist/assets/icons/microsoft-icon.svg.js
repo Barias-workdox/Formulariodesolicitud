@@ -1,0 +1,6 @@
+import "react";
+const w = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMSAyMSI+PHBhdGggZmlsbD0iI2YzNTMyNSIgZD0iTTAgMGgxMHYxMEgweiIvPjxwYXRoIGZpbGw9IiM4MWJjMDYiIGQ9Ik0xMSAwaDEwdjEwSDExeiIvPjxwYXRoIGZpbGw9IiMwNWE2ZjAiIGQ9Ik0wIDExaDEwdjEwSDB6Ii8+PHBhdGggZmlsbD0iI2ZmYmEwOCIgZD0iTTExIDExaDEwdjEwSDExeiIvPjwvc3ZnPg==";
+export {
+  w as default
+};
+//# sourceMappingURL=microsoft-icon.svg.js.map

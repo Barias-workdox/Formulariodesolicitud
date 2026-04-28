@@ -1,0 +1,1 @@
+export * from '../../../../components/background-icon/next/components/badge/badge.js'

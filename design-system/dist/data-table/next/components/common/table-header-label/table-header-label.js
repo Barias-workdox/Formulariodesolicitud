@@ -1,0 +1,1 @@
+export * from '../../../../../components/data-table/next/components/common/table-header-label/table-header-label.js'

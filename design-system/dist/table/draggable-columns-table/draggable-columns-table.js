@@ -1,0 +1,1 @@
+export * from '../../components/table/draggable-columns-table/draggable-columns-table.js'

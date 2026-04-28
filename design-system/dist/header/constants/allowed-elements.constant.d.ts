@@ -1,0 +1,1 @@
+export * from '../../components/header/constants/allowed-elements.constant.d'

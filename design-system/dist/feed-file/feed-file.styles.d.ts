@@ -1,0 +1,1 @@
+export * from '../components/feed-file/feed-file.styles.d'

@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/components/contract-negotiation/hooks/use-document-last-modification-text.hook.js'

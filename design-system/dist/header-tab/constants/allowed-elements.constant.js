@@ -1,0 +1,1 @@
+export * from '../../components/header-tab/constants/allowed-elements.constant.js'

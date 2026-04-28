@@ -1,0 +1,1 @@
+export * from '../../components/feed-file/components/feed-file-info-tag.js'

@@ -1,0 +1,9 @@
+export declare const StyledBrainIconContainer: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const StyledBusinessSummaryHeader: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const StyledBusinessSummaryHeaderContent: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const StyledBusinessSummaryHeaderTitle: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const StyledBusinessSummaryContainer: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const StyledBusinessSummaryContent: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const StyledBusinessSummaryFooterContainer: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const StyledBusinessSummaryFooterContent: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const StyledBusinessSummaryFooterButtonContainer: import('styletron-react').StyletronComponent<"div", {}>;

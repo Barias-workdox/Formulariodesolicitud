@@ -1,0 +1,1 @@
+export * from '../../components/data-table/next/data-table-wrapper.js'

@@ -1,0 +1,1 @@
+export * from '../../components/collaboration/containers/history-tab.container.d'

@@ -1,0 +1,1 @@
+export * from '../../../components/message-card/components/message-card-base/index.d'

@@ -1,0 +1,1 @@
+export * from '../../../components/file-download-manager/components/file-item/file-item-details.d'

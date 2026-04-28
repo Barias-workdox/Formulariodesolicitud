@@ -1,0 +1,1 @@
+export * from '../components/generative-text/generative-text.util.d'

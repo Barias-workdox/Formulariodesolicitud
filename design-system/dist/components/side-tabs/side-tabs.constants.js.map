@@ -1,0 +1,1 @@
+{"version":3,"file":"side-tabs.constants.js","sources":["../../../src/components/side-tabs/side-tabs.constants.ts"],"sourcesContent":["/** To set the default value for tab panels. */\nexport const DEFAULT_TAB_PANEL_WIDTH = '350px';\n"],"names":["DEFAULT_TAB_PANEL_WIDTH"],"mappings":"AACO,MAAMA,IAA0B;"}

@@ -1,0 +1,1 @@
+export * from '../../../components/page-header/components/page-header-primary-button/index.js'

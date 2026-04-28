@@ -1,0 +1,1 @@
+export * from '../../components/utils/hooks/use-is-scrollable.d'

@@ -1,0 +1,1 @@
+export * from '../../../components/message-box/next/variants/index.d'

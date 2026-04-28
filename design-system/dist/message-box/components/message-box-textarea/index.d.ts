@@ -1,0 +1,1 @@
+export * from '../../../components/message-box/components/message-box-textarea/index.d'

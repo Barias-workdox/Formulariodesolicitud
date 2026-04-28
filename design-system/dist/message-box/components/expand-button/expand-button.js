@@ -1,0 +1,1 @@
+export * from '../../../components/message-box/components/expand-button/expand-button.js'

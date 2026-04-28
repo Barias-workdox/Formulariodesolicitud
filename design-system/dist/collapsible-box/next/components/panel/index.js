@@ -1,0 +1,1 @@
+export * from '../../../../components/collapsible-box/next/components/panel/index.js'

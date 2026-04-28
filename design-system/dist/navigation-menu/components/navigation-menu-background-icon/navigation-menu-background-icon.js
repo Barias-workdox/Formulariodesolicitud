@@ -1,0 +1,1 @@
+export * from '../../../components/navigation-menu/components/navigation-menu-background-icon/navigation-menu-background-icon.js'

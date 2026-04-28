@@ -1,0 +1,1 @@
+export * from '../../components/file-upload-manager/hooks/use-empty-state-details.d'

@@ -1,0 +1,1 @@
+export * from '../../../components/search-container/components/search-input/index.d'

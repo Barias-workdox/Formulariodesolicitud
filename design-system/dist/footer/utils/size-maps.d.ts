@@ -1,0 +1,1 @@
+export * from '../../components/footer/utils/size-maps.d'

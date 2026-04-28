@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/components/contract-negotiation/contract-negotiation-body/contract-negotiation-body.container.js'

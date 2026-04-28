@@ -1,0 +1,1 @@
+{"version":3,"file":"multiple-avatars.constants.js","sources":["../../../src/components/multiple-avatars/multiple-avatars.constants.ts"],"sourcesContent":["export const MAX_AVATAR_COUNT = 99;\n"],"names":["MAX_AVATAR_COUNT"],"mappings":"AAAO,MAAMA,IAAmB;"}

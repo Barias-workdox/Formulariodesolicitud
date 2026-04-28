@@ -1,0 +1,1 @@
+export * from '../components/truncated-text/truncated-text.js'

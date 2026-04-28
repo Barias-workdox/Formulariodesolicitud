@@ -1,0 +1,1 @@
+export * from '../../components/utils/i18n/index.js'

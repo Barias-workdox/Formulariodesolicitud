@@ -1,0 +1,1 @@
+export * from '../../../components/table/components/table-actions/table-action.js'

@@ -1,0 +1,1 @@
+export * from '../../components/utils/interfaces/common.interface.d'

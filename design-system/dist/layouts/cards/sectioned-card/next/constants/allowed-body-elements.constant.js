@@ -1,0 +1,1 @@
+export * from '../../../../../components/layouts/cards/sectioned-card/next/constants/allowed-body-elements.constant.js'

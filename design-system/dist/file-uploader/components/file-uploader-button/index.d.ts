@@ -1,0 +1,1 @@
+export * from '../../../components/file-uploader/components/file-uploader-button/index.d'

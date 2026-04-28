@@ -1,0 +1,1 @@
+export * from '../../components/collaboration/document-upload-details/document-upload-details.styles.d'

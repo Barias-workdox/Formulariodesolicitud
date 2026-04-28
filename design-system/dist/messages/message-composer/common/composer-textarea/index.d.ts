@@ -1,0 +1,1 @@
+export * from '../../../../components/messages/message-composer/common/composer-textarea/index.d'

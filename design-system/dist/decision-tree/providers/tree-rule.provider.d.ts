@@ -1,0 +1,1 @@
+export * from '../../components/decision-tree/providers/tree-rule.provider.d'

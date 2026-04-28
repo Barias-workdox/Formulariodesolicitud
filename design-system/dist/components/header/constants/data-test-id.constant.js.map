@@ -1,0 +1,1 @@
+{"version":3,"file":"data-test-id.constant.js","sources":["../../../../src/components/header/constants/data-test-id.constant.ts"],"sourcesContent":["export const HEADER_DATA_TEST_ID_BASE = 'header_';\n"],"names":["HEADER_DATA_TEST_ID_BASE"],"mappings":"AAAO,MAAMA,IAA2B;"}

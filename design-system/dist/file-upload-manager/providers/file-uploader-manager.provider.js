@@ -1,0 +1,1 @@
+export * from '../../components/file-upload-manager/providers/file-uploader-manager.provider.js'

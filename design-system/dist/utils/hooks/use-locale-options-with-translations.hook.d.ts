@@ -1,0 +1,1 @@
+export * from '../../components/utils/hooks/use-locale-options-with-translations.hook.d'

@@ -1,0 +1,1 @@
+export * from '../../../components/file-upload-manager/components/file-upload-manager-tabs/file-upload-manager-tabs.js'

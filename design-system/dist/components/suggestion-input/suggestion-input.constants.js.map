@@ -1,0 +1,1 @@
+{"version":3,"file":"suggestion-input.constants.js","sources":["../../../src/components/suggestion-input/suggestion-input.constants.ts"],"sourcesContent":["/** Max height of the popover content list in the suggestion input */\nexport const SUGGESTION_LIST_MAX_HEIGHT = '200px';\n"],"names":["SUGGESTION_LIST_MAX_HEIGHT"],"mappings":"AACO,MAAMA,IAA6B;"}

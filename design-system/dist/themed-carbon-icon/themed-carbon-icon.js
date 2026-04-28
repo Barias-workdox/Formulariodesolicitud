@@ -1,0 +1,1 @@
+export * from '../components/themed-carbon-icon/themed-carbon-icon.js'

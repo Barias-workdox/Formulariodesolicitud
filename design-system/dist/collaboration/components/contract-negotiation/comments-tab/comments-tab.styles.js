@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/components/contract-negotiation/comments-tab/comments-tab.styles.js'

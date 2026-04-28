@@ -1,0 +1,1 @@
+export * from '../../../components/message-box/next/providers/message-box.provider.d'

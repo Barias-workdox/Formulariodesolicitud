@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/components/business-summary/index.d'

@@ -1,0 +1,1 @@
+export * from '../../components/avatar/next/avatar.overrides.js'

@@ -1,0 +1,1 @@
+export * from '../../components/layouts/title-layout/index.js'

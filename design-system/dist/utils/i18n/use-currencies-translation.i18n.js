@@ -1,0 +1,1 @@
+export * from '../../components/utils/i18n/use-currencies-translation.i18n.js'

@@ -1,0 +1,1 @@
+export * from '../../components/webdox-ai/utils/legal-whisper-selector.util.d'

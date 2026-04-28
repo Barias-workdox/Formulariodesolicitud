@@ -1,0 +1,1 @@
+export * from '../../../../../components/collaboration/components/contract-negotiation/layouts/contract-negotiation-responsible/contract-negotiation-responsible.js'

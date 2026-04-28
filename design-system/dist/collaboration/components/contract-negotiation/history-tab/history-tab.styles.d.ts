@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/components/contract-negotiation/history-tab/history-tab.styles.d'

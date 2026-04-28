@@ -1,0 +1,1 @@
+export * from '../../components/messages/message-date/message-date.d'

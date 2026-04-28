@@ -1,0 +1,1 @@
+export * from '../../../../components/data-table/components/common/menu-item-label/menu-item-label.js'

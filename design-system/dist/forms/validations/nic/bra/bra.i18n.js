@@ -1,0 +1,1 @@
+export * from '../../../../components/forms/validations/nic/bra/bra.i18n.js'

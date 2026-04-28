@@ -1,0 +1,1 @@
+export * from '../../../components/layouts/full-screen-layout/components/styled-inner-container.js'

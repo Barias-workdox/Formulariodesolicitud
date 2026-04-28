@@ -1,0 +1,1 @@
+export * from '../../../components/delete-modal/components/steps/confirm-delete-modal-step.d'

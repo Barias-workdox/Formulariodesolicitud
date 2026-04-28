@@ -1,0 +1,1 @@
+export * from '../components/percentage-circle/percentage-circle.d'

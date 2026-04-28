@@ -1,0 +1,1 @@
+export * from '../../../components/modal/components/modal-close-button/index.js'

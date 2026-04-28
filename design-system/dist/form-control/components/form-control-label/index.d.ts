@@ -1,0 +1,1 @@
+export * from '../../../components/form-control/components/form-control-label/index.d'

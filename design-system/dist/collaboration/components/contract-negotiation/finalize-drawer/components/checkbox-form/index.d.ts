@@ -1,0 +1,1 @@
+export * from '../../../../../../components/collaboration/components/contract-negotiation/finalize-drawer/components/checkbox-form/index.d'

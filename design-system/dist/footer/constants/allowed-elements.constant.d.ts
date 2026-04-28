@@ -1,0 +1,1 @@
+export * from '../../components/footer/constants/allowed-elements.constant.d'

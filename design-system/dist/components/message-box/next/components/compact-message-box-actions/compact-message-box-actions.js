@@ -1,0 +1,42 @@
+import { jsx as o } from "react/jsx-runtime";
+import { BasicMessageBoxActions as t } from "../basic-message-box-actions/basic-message-box-actions.js";
+import "../message-box-actions/styled-components/styled-container.js";
+import "../message-box-actions/styled-components/styled-extra-actions-container.js";
+import "react";
+import "react-use";
+import "../../contexts/message-box.context.js";
+import "@tiptap/react";
+import "../../styled-components/styled-root.js";
+import "../../styled-components/styled-message-box-container.js";
+import "../../styled-components/styled-textarea-container.js";
+import "../../styled-components/styled-addons-container.js";
+import "@carbon/icons-react";
+import "@webdoxclm/document-viewer-front/i18n";
+import "@webdoxclm/document-viewer-front/locales/en.json";
+import "@webdoxclm/document-viewer-front/locales/es.json";
+import "@webdoxclm/document-viewer-front/locales/pt.json";
+import "i18next";
+import "i18next-http-backend";
+import "lodash/mergeWith";
+import "react-i18next";
+import "../../utils/compose-message-box-test-id.utils.js";
+import "../../../../button/button.js";
+import "../../../../button/variants/icon-button/icon-button.js";
+import "../../../../../themes/v3/tokens/typography.js";
+import "../../../../../themes/v3/tokens/breakpoints.js";
+import "../../../../../themes/v3/light/theme.js";
+import "../../../../../themes/v3/dark/theme.js";
+import "../../../../../themes/utilities.js";
+import "baseui/modal";
+import "baseui";
+import "../../../../modal/components/modal-close-button/modal-close-button.js";
+import "../../../../modal/regular-modal.js";
+import "../../../../modal/sectioned-modal.js";
+import "../../../../spinner/full-spinner/full-spinner-context.js";
+import "../text-editor-toolbar/styled-components/styled-container.js";
+import { StyledContainer as i } from "./styled-components/styled-container.js";
+const O = (r) => /* @__PURE__ */ o(i, { children: /* @__PURE__ */ o(t, { ...r }) });
+export {
+  O as CompactMessageBoxActions
+};
+//# sourceMappingURL=compact-message-box-actions.js.map

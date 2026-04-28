@@ -1,0 +1,1 @@
+{"version":3,"file":"inline-edit-input.constants.js","sources":["../../../src/components/inline-edit-input/inline-edit-input.constants.ts"],"sourcesContent":["export const DEFAULT_ICON_SIZE = 20;\n"],"names":["DEFAULT_ICON_SIZE"],"mappings":"AAAO,MAAMA,IAAoB;"}

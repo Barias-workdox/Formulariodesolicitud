@@ -1,0 +1,1 @@
+export * from '../../components/inline-edit-input/next/inline-edit-input.overrides.d'

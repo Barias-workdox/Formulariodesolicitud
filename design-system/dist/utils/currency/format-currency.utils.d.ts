@@ -1,0 +1,1 @@
+export * from '../../components/utils/currency/format-currency.utils.d'

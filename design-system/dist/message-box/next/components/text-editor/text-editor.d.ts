@@ -1,0 +1,1 @@
+export * from '../../../../components/message-box/next/components/text-editor/text-editor.d'

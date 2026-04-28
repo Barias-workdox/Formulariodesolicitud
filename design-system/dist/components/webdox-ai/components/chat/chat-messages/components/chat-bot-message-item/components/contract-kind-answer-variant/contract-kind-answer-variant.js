@@ -1,0 +1,194 @@
+import { jsx as t, jsxs as a } from "react/jsx-runtime";
+import { noop as s } from "lodash";
+import { DSTrans as c } from "../../../../../../../../utils/i18n/translation-component.js";
+import { MessageList as d } from "../../../../../../message-list/message-list.js";
+import "react";
+import "baseui/list";
+import "baseui";
+import "../../../../../../../../truncated-text/truncated-text.js";
+import { StyledBaseParagraphText as l } from "../../../../../../styled-base-paragraph-text/styled-base-paragraph-text.js";
+import { ChatMessageLayout as f } from "../../../chat-message-layout/chat-message-layout.js";
+import "dompurify";
+import "../../../../../../../../text/text.js";
+import "../../../user-message/styled-components/styled-alignment-container.js";
+import "../../../../../../../../../themes/v3/light/theme.js";
+import "../../../../../../../../../themes/v3/dark/theme.js";
+import "../../../../../../../../../themes/v3/tokens/typography.js";
+import "../../../../../../../../../themes/v3/tokens/breakpoints.js";
+import "../../../../../../../../../themes/utilities.js";
+import "lodash/deburr";
+import "marked";
+import "react-i18next";
+import "../../../../../../../../data-table/data-table.styles.js";
+import "@webdoxclm/document-viewer-front/i18n";
+import "@webdoxclm/document-viewer-front/locales/en.json";
+import "@webdoxclm/document-viewer-front/locales/es.json";
+import "@webdoxclm/document-viewer-front/locales/pt.json";
+import "i18next";
+import "i18next-http-backend";
+import "lodash/mergeWith";
+import "@carbon/icons-react";
+import "../../../../../../../../button/button.js";
+import "../../../../../../../../button/variants/icon-button/icon-button.js";
+import "baseui/modal";
+import "../../../../../../../../modal/components/modal-close-button/modal-close-button.js";
+import "../../../../../../../../modal/regular-modal.js";
+import "../../../../../../../../modal/sectioned-modal.js";
+import "../../../../../../../../spinner/full-spinner/full-spinner-context.js";
+import "baseui/tooltip";
+import "../../../../../../chat-message-menu/styled-components/styled-container.js";
+import "../../../../../../../constants/webdox-ai-regex.constants.js";
+import "nanoid";
+import "../../../../../../../contexts/custom-prompt-modals.context.js";
+import "zod";
+import "../../../../../../webdox-ai-button/webdox-ai-button.js";
+import "baseui/popover";
+import "../../../../../../../../information-popover/components/information-popover-header/information-popover-header.styles.js";
+import "baseui/typography";
+import "baseui/input";
+import "../../../../../../../../menu/stateful-menu/stateful-menu.js";
+import "../../../../../../../../menu/virtualized-menu/components/virtualized-list/virtualized-list.js";
+import "baseui/avatar";
+import "../../../../../../../../avatar/avatar.styles.js";
+import "../../../../../../../../message-box/components/expand-button/styled-components/styled-button.js";
+import "../../../../../../../../message-box/components/message-box-textarea/message-box-textarea.js";
+import "../../../../../../../../messages/message-composer/message-composer.styles.js";
+import "react-dom/server";
+import "../../../../../../../../messages/message-content/message-content.js";
+import "lodash/isEqual";
+import "../../../../../../../../../contexts/locale-provider/locale-provider.js";
+import "date-fns";
+import "date-fns/locale";
+import "@formkit/auto-animate/react";
+import "react-use";
+import "../../../../../../../../background-icon/background-icon.styles.js";
+import "../../../../../../../../messages/message-list/message-list.styles.js";
+import "baseui/menu";
+import "../../../../../../../../menu/stateless-menu/stateless-menu.overrides.js";
+import "baseui/tag";
+import "../../../../../../webdox-ai-button-information-popover/webdox-ai-button-information-popover.styles.js";
+import "../../../../../../webdox-ai-button-information-popover/components/popover-title-with-icon/popover-title-with-icon.js";
+import "../../../../../../../../messages/message-composer/common/composer-textarea/composer-textarea.styles.js";
+import "../../../../../../webdox-ai-button-information-popover/components/chat-shortcut-information-popover/styled-chat-shortcut-wrapper.js";
+import "../../../../../../webdox-ai-button-information-popover/components/chat-shortcut-information-popover/styled-detail-chat-shortcut-wrapper.js";
+import "../../../../../../webdox-ai-button-information-popover/next/components/information-popover-content/styled-components/styled-actions-container.js";
+import "../../../../../../webdox-ai-button-information-popover/next/components/information-popover-content/styled-components/styled-content-with-actions-container.js";
+import "../../../../../../webdox-ai-button-information-popover/next/components/information-popover-title/styled-components/styled-emoji.js";
+import "../../../../../../webdox-ai-button-information-popover/next/components/popover-title-with-icon/popover-title-with-icon.js";
+import "../../../../../../assistant-layout/assistant-layout.js";
+import "../../../../../../webdox-ai-document-viewer-wrapper/webdox-ai-document-viewer-wrapper.styles.js";
+import "../../../../../../../../popover/popover.styles.js";
+import "../../../../../../webdox-ai-collapsible-button/webdox-ai-collapsible-button.js";
+import "../../../../../../legal-whisper-answer-rating/legal-whisper-answer-rating.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-container.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-body.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-footer.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-title-container.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-radio-description-with-textarea.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-quotes-container.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-radio-description-container.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-success-message-container.js";
+import "../../../../../../legal-whisper-answer-rating/styled-components/styled-success-message-options-container.js";
+import "../../../../../../legal-whisper-answer-rating/legal-whisper-answer-rating.constants.js";
+import "../../../../../../business-summary/business-summary.styles.js";
+import "baseui/drawer";
+import "resize-observer-polyfill";
+import "../../../../../../../../drawer/components/side-nav/side-nav.styles.js";
+import "baseui/header-navigation";
+import "baseui/layer";
+import "../../../../../../../../../constants/placement.constants.js";
+import "../../../../../../../../dynamic-dialog/next/dynamic-dialog.constants.js";
+import "../../../../../../../../dynamic-dialog/next/components/styled-components.js";
+import "../../../../../../../../dynamic-dialog/next/context/dynamic-dialog.context.js";
+import "react-is";
+import "../../../../../../../../tag/next/tag.styled-components.js";
+import "../../../../../../../../notification/next/notification.js";
+import "../../../../../../../contexts/plan-usage.context.js";
+import "../../../../../../usage-overview-popover/usage-overview-popover.js";
+import "../../../../../../text-rotator/text-rotator.styles.js";
+import "../../../../../../data-extraction/components/data-extraction-beta/components/metadata-descriptive-loading/styled-components/styled-container.js";
+import "../../../../../../data-extraction/components/data-extraction-list-item/data-extraction-list-item.styles.js";
+import "../../../../../../data-extraction/data-extraction.styles.js";
+import "../../../../../../data-extraction/styled-components/styled-container.js";
+import "../../../../../../data-extraction/styled-components/styled-header.js";
+import "../../../../../../data-extraction/styled-components/styled-content.js";
+import "../../../../../../data-extraction/styled-components/styled-data-extraction-plan-counter.js";
+import "../../../../../../webdox-ai-spinner/styled-components/styled-container.js";
+import "../../../../../../brain-companion-layout/styled-components/styled-container.js";
+import "../../../../../../brain-companion-layout/styled-components/styled-chat-container.js";
+import "../../../../../../legal-whisper-layout/styled-components/styled-container.js";
+import "../../../../../../legal-whisper-layout/styled-components/styled-chat-container.js";
+import "../../../../../../legal-whisper-layout/styled-components/styled-left-column-container.js";
+import "../../../../../../legal-whisper-layout/styled-components/styled-right-column-container.js";
+import "@tanstack/react-virtual";
+import "../../../../../../virtualized-conversations-list/styled-components/styled-conversations-list-spinner-wrapper.js";
+import "../../../../../../virtualized-conversations-list/styled-components/styled-list.js";
+import "../../styled-components/styled-animated-dots.js";
+import { StyledBrandText as h } from "../../styled-components/styled-brand-text.js";
+import "../../styled-components/styled-pre-viewer.js";
+import "../../styled-components/styled-pre.js";
+import "../../styled-components/styled-reference-wrapper.js";
+import "../../styled-components/styled-table-cell.js";
+import "../../styled-components/styled-table-header-cell.js";
+import "../../styled-components/styled-table-header.js";
+import "../../styled-components/styled-table.js";
+import "../answer-header/styled-components/styled-container.js";
+import "../answer-references/styled-components/styled-container.js";
+import "../answer-references/styled-components/styled-range-item.js";
+import "baseui/tabs-motion";
+import "../legal-whisper-quotes-tabs/components/administrative-quotes/administrative-quotes.js";
+import "../legal-whisper-quotes-tabs/components/jurisprudential-quotes/jurisprudential-quotes.js";
+import "../legal-whisper-quotes-tabs/components/legal-quotes/legal-quotes.js";
+import "../../../../../../../../layouts/full-screen-layout/full-screen-layout.js";
+import "../../../../../../brain-viewer-modal/components/styled-buttons-container.js";
+import "../../../../../../brain-viewer-modal/components/styled-end-enhancer-container.js";
+import "../markdown-modal/components/action-menu/components/styled-wrapper.js";
+import "../markdown-modal/components/styled-container.js";
+import "../markdown-modal/components/styled-menu-container.js";
+import "../markdown-modal/components/styled-wrapper.js";
+import "../persist-answer-variant/styled-components/styled-container.js";
+import "../prompts-suggestion-answer-variant/styled-components/styled-container.js";
+import "../first-answer-variant/styled-components/styled-container.js";
+import "../first-answer-variant/styled-components/styled-icon-container.js";
+import "../../../../../../../webdox-ai.styles.js";
+import "../loading-answer-variant/styled-components/styled-container.js";
+import "../descriptive-loading-answer-variant/styled-components/styled-container.js";
+import { StyledContainer as S } from "./styled-components/styled-container.js";
+const T = "chat-bot-answer__contract-kind", lo = ({
+  id: r,
+  zIndex: o,
+  item: { label: i = "" } = {},
+  options: m = [],
+  onSubmit: p = s
+}) => {
+  const n = (e) => {
+    p("contractKind", {
+      id: r,
+      item: e
+    });
+  };
+  return /* @__PURE__ */ t(f, { kind: "primary", children: /* @__PURE__ */ a(S, { children: [
+    /* @__PURE__ */ t(l, { children: /* @__PURE__ */ t(
+      c,
+      {
+        i18nKey: "webdoxAI.chat.contractKindAnswer.description",
+        values: { contractKind: i },
+        tOptions: { interpolation: { escapeValue: !1 } },
+        components: { sp: /* @__PURE__ */ t(h, {}) }
+      }
+    ) }),
+    /* @__PURE__ */ t(
+      d,
+      {
+        dataTestId: `${T}-prompts-list`,
+        items: m,
+        onClick: n,
+        zIndex: o
+      }
+    )
+  ] }) });
+};
+export {
+  lo as ContractKindAnswerVariant
+};
+//# sourceMappingURL=contract-kind-answer-variant.js.map

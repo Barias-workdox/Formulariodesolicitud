@@ -1,0 +1,1 @@
+export * from '../../../components/select/components/select-optgroup-header/index.js'

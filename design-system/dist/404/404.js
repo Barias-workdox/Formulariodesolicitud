@@ -1,0 +1,1 @@
+export * from '../components/404/404.js'

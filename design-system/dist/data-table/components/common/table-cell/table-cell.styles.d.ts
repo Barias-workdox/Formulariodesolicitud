@@ -1,0 +1,1 @@
+export * from '../../../../components/data-table/components/common/table-cell/table-cell.styles.d'

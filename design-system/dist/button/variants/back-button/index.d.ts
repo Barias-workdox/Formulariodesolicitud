@@ -1,0 +1,1 @@
+export * from '../../../components/button/variants/back-button/index.d'

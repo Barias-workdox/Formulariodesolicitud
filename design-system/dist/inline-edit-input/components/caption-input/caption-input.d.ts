@@ -1,0 +1,1 @@
+export * from '../../../components/inline-edit-input/components/caption-input/caption-input.d'

@@ -1,0 +1,1 @@
+export * from '../../components/spinner/full-spinner/full-spinner-context.d'

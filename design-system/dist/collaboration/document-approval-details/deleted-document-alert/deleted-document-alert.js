@@ -1,0 +1,1 @@
+export * from '../../../components/collaboration/document-approval-details/deleted-document-alert/deleted-document-alert.js'

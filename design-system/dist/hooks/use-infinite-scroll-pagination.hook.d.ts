@@ -1,0 +1,19 @@
+import { ReactNode } from 'react';
+import { useIntersection } from 'react-use';
+export interface IUseInfiniteScrollPagination {
+    /**
+     * A React node that serves as an indicator for the end of the page.
+     * This node is typically placed at the bottom of the content to trigger pagination.
+     */
+    endOfPageNode: ReactNode;
+}
+export interface UseInfiniteScrollPaginationProps {
+    'data-testid'?: string;
+    disabled?: boolean;
+    /** Options for the intersection observer. */
+    intersectionOptions?: Parameters<typeof useIntersection>[1];
+    /** A callback function to be called when the end of the page is reached, triggering pagination. */
+    onPageEnd(): void;
+}
+/** Hook for enabling infinite scroll pagination. */
+export declare const useInfiniteScrollPagination: ({ "data-testid": dataTestId, disabled, intersectionOptions, onPageEnd, }: UseInfiniteScrollPaginationProps) => IUseInfiniteScrollPagination;

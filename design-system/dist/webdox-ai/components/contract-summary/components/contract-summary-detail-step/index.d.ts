@@ -1,0 +1,1 @@
+export * from '../../../../../components/webdox-ai/components/contract-summary/components/contract-summary-detail-step/index.d'

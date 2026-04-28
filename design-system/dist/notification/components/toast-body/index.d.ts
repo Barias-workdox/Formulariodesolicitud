@@ -1,0 +1,1 @@
+export * from '../../../components/notification/components/toast-body/index.d'

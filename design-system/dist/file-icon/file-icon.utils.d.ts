@@ -1,0 +1,1 @@
+export * from '../components/file-icon/file-icon.utils.d'

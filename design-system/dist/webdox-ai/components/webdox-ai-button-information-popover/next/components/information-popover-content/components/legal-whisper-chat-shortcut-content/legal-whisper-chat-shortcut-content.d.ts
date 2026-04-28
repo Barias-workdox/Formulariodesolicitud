@@ -1,0 +1,1 @@
+export * from '../../../../../../../../components/webdox-ai/components/webdox-ai-button-information-popover/next/components/information-popover-content/components/legal-whisper-chat-shortcut-content/legal-whisper-chat-shortcut-content.d'

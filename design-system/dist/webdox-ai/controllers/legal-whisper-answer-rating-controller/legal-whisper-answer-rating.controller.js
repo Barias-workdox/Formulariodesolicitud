@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/controllers/legal-whisper-answer-rating-controller/legal-whisper-answer-rating.controller.js'

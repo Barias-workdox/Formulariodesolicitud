@@ -1,0 +1,1 @@
+export * from '../../../components/progress-steps/components/progress-step/progress-step.d'

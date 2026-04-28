@@ -1,0 +1,103 @@
+import { getDeprecatedSemanticColors as r } from "../../utils/colors.utils.js";
+import { PRIMITIVE_COLORS as e } from "../../tokens/primitives.js";
+const a = {
+  base: e.gray140,
+  transparent: e.transparent,
+  // neutral
+  neutralBase: e.gray120,
+  neutralWashed: e.gray100,
+  neutralSubtle: e.gray80,
+  neutralDepressed: e.gray40,
+  neutralSubdued: e.gray40,
+  neutral: e.gray20,
+  neutralMedium: e.gray10,
+  neutralStrong: e.gray0,
+  // brand
+  brandBase: e.blue120,
+  brandWashed: e.blue100,
+  brandSubtle: e.blue80,
+  brandDepressed: e.blue40,
+  brandSubdued: e.blue40,
+  brand: e.blue20,
+  brandMedium: e.blue10,
+  brandStrong: e.blue0,
+  // positive
+  positiveBase: e.green140,
+  positiveWashed: e.green120,
+  positiveSubtle: e.green100,
+  positiveDepressed: e.green80,
+  positiveSubdued: e.green40,
+  positive: e.green20,
+  positiveMedium: e.green10,
+  positiveStrong: e.green0,
+  // negative
+  negativeBase: e.red140,
+  negativeWashed: e.red120,
+  negativeSubtle: e.red100,
+  negativeDepressed: e.red80,
+  negativeSubdued: e.red40,
+  negative: e.red20,
+  negativeMedium: e.red10,
+  negativeStrong: e.red0,
+  // warning
+  warningBase: e.yellow140,
+  warningWashed: e.yellow120,
+  warningSubtle: e.yellow100,
+  warningDepressed: e.yellow80,
+  warningSubdued: e.yellow40,
+  warning: e.yellow20,
+  warningMedium: e.yellow10,
+  warningStrong: e.yellow0,
+  // peace
+  peaceBase: e.cyan140,
+  peaceWashed: e.cyan120,
+  peaceSubtle: e.cyan100,
+  peaceDepressed: e.cyan80,
+  peaceSubdued: e.cyan40,
+  peace: e.cyan20,
+  peaceMedium: e.cyan10,
+  peaceStrong: e.cyan0,
+  // power
+  powerBase: e.purple140,
+  powerWashed: e.purple120,
+  powerSubtle: e.purple100,
+  powerDepressed: e.purple80,
+  powerSubdued: e.purple40,
+  power: e.purple20,
+  powerMedium: e.purple10,
+  powerStrong: e.purple0,
+  // nature
+  natureBase: e.lightgreen140,
+  natureWashed: e.lightgreen120,
+  natureSubtle: e.lightgreen100,
+  natureDepressed: e.lightgreen80,
+  natureSubdued: e.lightgreen40,
+  nature: e.lightgreen20,
+  natureMedium: e.lightgreen10,
+  natureStrong: e.lightgreen0,
+  // sweet
+  sweetBase: e.magenta140,
+  sweetWashed: e.magenta120,
+  sweetSubtle: e.magenta100,
+  sweetDepressed: e.magenta80,
+  sweetSubdued: e.magenta40,
+  sweet: e.magenta20,
+  sweetMedium: e.magenta10,
+  sweetStrong: e.magenta0,
+  // heat
+  heatBase: e.orange140,
+  heatWashed: e.orange120,
+  heatSubtle: e.orange100,
+  heatDepressed: e.orange80,
+  heatSubdued: e.orange40,
+  heat: e.orange20,
+  heatMedium: e.orange10,
+  heatStrong: e.orange0
+}, g = {
+  ...a,
+  ...r(a)
+};
+export {
+  g as SEMANTIC_COLORS
+};
+//# sourceMappingURL=semantics.js.map

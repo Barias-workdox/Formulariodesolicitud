@@ -1,0 +1,1 @@
+export * from '../../components/file-uploader/interfaces/file-uploader.interfaces.d'

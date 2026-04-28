@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/components/contract-negotiation/hooks/use-contract-negotiation-tabs.hook.d'

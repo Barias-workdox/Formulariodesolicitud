@@ -1,0 +1,1 @@
+export * from '../../components/tag/next/index.js'

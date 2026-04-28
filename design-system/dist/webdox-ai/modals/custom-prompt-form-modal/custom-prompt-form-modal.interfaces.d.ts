@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/modals/custom-prompt-form-modal/custom-prompt-form-modal.interfaces.d'

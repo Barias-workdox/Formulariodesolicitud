@@ -1,0 +1,1 @@
+{"version":3,"file":"checkbox.constants.js","sources":["../../../../src/components/checkbox/next/checkbox.constants.ts"],"sourcesContent":["export const DEFAULT_SIZE = 'medium';\n\nexport const DEFAULT_DATA_TEST_ID = 'design-system__checkbox--component';\n"],"names":["DEFAULT_SIZE","DEFAULT_DATA_TEST_ID"],"mappings":"AAAO,MAAMA,IAAe,UAEfC,IAAuB;"}

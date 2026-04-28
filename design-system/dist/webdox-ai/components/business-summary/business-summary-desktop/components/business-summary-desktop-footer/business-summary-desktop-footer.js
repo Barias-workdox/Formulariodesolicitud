@@ -1,0 +1,1 @@
+export * from '../../../../../../components/webdox-ai/components/business-summary/business-summary-desktop/components/business-summary-desktop-footer/business-summary-desktop-footer.js'

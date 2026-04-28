@@ -1,0 +1,1 @@
+export * from '../../../components/navigation-menu/components/menu-item/index.d'

@@ -1,0 +1,1 @@
+export * from '../../components/delete-modal/components/delete-modal-disclaimer-text.js'

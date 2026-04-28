@@ -1,0 +1,1 @@
+export * from '../components/tag/tag.styles.d'

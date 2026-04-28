@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/components/contract-negotiation/header-tab/header-tab.styles.d'

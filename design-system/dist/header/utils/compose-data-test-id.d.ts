@@ -1,0 +1,1 @@
+export * from '../../components/header/utils/compose-data-test-id.d'

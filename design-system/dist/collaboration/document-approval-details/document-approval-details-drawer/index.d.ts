@@ -1,0 +1,1 @@
+export * from '../../../components/collaboration/document-approval-details/document-approval-details-drawer/index.d'

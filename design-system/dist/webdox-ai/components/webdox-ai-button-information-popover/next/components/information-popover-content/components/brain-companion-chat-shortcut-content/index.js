@@ -1,0 +1,1 @@
+export * from '../../../../../../../../components/webdox-ai/components/webdox-ai-button-information-popover/next/components/information-popover-content/components/brain-companion-chat-shortcut-content/index.js'

@@ -1,0 +1,1 @@
+export * from '../../components/select/components/arrow-icon.js'

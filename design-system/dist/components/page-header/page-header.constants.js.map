@@ -1,0 +1,1 @@
+{"version":3,"file":"page-header.constants.js","sources":["../../../src/components/page-header/page-header.constants.ts"],"sourcesContent":["export const SEARCH_MIN_WIDTH = '360px';\n\nexport const SEARCH_MAX_WIDTH = '600px';\n"],"names":["SEARCH_MIN_WIDTH","SEARCH_MAX_WIDTH"],"mappings":"AAAO,MAAMA,IAAmB,SAEnBC,IAAmB;"}

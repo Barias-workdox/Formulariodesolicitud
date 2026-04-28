@@ -1,0 +1,1 @@
+export * from '../../components/table/components/index.d'

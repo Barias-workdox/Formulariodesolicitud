@@ -1,0 +1,1 @@
+export * from '../components/background-icon/background-icon.interfaces.js'

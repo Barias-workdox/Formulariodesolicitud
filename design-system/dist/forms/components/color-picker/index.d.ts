@@ -1,0 +1,1 @@
+export * from '../../../components/forms/components/color-picker/index.d'

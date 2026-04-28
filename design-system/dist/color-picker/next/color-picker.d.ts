@@ -1,0 +1,1 @@
+export * from '../../components/color-picker/next/color-picker.d'

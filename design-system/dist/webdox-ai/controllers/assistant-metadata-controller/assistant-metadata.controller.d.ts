@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/controllers/assistant-metadata-controller/assistant-metadata.controller.d'

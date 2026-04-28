@@ -1,0 +1,1 @@
+export * from '../../../components/file-download-manager/containers/footer/index.js'

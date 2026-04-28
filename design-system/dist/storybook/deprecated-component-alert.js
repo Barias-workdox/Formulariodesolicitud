@@ -1,0 +1,1 @@
+export * from '../components/storybook/deprecated-component-alert.js'

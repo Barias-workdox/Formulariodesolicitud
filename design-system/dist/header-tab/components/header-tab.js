@@ -1,0 +1,1 @@
+export * from '../../components/header-tab/components/header-tab.js'

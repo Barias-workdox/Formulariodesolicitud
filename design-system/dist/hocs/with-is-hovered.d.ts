@@ -1,0 +1,1 @@
+export * from '../components/hocs/with-is-hovered.d'

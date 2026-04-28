@@ -1,0 +1,1 @@
+export * from '../../components/multiple-avatars/next/multiple-avatars.js'

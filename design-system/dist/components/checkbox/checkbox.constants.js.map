@@ -1,0 +1,1 @@
+{"version":3,"file":"checkbox.constants.js","sources":["../../../src/components/checkbox/checkbox.constants.ts"],"sourcesContent":["export const CHECK_MARK_SIZE = '15px';\n\nexport const BORDER_WIDTH = '2px';\n"],"names":["CHECK_MARK_SIZE","BORDER_WIDTH"],"mappings":"AAAO,MAAMA,IAAkB,QAElBC,IAAe;"}

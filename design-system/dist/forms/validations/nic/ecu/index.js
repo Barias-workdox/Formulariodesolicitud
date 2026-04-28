@@ -1,0 +1,1 @@
+export * from '../../../../components/forms/validations/nic/ecu/index.js'

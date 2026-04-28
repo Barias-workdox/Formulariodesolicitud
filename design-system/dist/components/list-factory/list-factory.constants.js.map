@@ -1,0 +1,1 @@
+{"version":3,"file":"list-factory.constants.js","sources":["../../../src/components/list-factory/list-factory.constants.ts"],"sourcesContent":["export const LIST_MIN_WIDTH = '200px';\n"],"names":["LIST_MIN_WIDTH"],"mappings":"AAAO,MAAMA,IAAiB;"}

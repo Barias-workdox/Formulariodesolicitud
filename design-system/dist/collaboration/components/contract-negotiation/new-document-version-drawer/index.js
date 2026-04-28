@@ -1,0 +1,1 @@
+export * from '../../../../components/collaboration/components/contract-negotiation/new-document-version-drawer/index.js'

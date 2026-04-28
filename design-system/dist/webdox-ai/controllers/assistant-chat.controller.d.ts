@@ -1,0 +1,1 @@
+export * from '../../components/webdox-ai/controllers/assistant-chat.controller.d'

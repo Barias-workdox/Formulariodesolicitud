@@ -1,0 +1,1 @@
+export * from '../../../components/sidebar/components/trigger/index.js'

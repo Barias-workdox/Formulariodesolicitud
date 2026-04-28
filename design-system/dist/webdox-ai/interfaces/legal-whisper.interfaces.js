@@ -1,0 +1,1 @@
+export * from '../../components/webdox-ai/interfaces/legal-whisper.interfaces.js'

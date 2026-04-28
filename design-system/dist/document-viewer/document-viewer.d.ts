@@ -1,0 +1,1 @@
+export * from '../components/document-viewer/document-viewer.d'

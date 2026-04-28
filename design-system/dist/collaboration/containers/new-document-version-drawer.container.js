@@ -1,0 +1,1 @@
+export * from '../../components/collaboration/containers/new-document-version-drawer.container.js'

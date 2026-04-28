@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/controllers/webdox-ai-button-controller/index.d'

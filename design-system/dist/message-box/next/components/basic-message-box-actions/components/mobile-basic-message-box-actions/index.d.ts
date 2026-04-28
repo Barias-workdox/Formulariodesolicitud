@@ -1,0 +1,1 @@
+export * from '../../../../../../components/message-box/next/components/basic-message-box-actions/components/mobile-basic-message-box-actions/index.d'

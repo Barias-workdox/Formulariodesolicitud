@@ -1,0 +1,20 @@
+{
+  "name": "@webdoxclm/design-system",
+  "version": "4.1.2",
+  "type": "module",
+  "private": false,
+  "files": ["*"],
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-is": "^18.3.1",
+    "baseui": "^16.1.1",
+    "styletron-engine-atomic": "^1.6.2",
+    "styletron-engine-monolithic": ">=1",
+    "styletron-react": ">=6",
+    "styletron-standard": "^3.1.0",
+    "react-router-dom": ">=5",
+    "date-fns": ">=2",
+    "lodash": "^4.17.21"
+  }
+}

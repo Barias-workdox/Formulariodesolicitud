@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/components/prompt-quick-actions/prompt-quick-actions.js'

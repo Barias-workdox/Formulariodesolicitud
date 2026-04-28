@@ -1,0 +1,1 @@
+export * from '../../components/webdox-ai/constants/document-metadata.constants.d'

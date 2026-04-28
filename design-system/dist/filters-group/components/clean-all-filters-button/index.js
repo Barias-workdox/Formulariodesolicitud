@@ -1,0 +1,1 @@
+export * from '../../../components/filters-group/components/clean-all-filters-button/index.js'

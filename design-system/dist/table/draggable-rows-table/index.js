@@ -1,0 +1,1 @@
+export * from '../../components/table/draggable-rows-table/index.js'

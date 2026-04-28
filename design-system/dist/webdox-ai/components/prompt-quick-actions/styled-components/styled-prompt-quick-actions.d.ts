@@ -1,0 +1,1 @@
+export * from '../../../../components/webdox-ai/components/prompt-quick-actions/styled-components/styled-prompt-quick-actions.d'

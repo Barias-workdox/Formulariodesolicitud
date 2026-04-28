@@ -1,0 +1,1 @@
+export * from '../../../../components/forms/validations/nic/per/per.i18n.js'

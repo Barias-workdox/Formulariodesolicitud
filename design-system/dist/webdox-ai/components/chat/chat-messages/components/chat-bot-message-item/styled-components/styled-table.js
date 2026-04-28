@@ -1,0 +1,1 @@
+export * from '../../../../../../../components/webdox-ai/components/chat/chat-messages/components/chat-bot-message-item/styled-components/styled-table.js'

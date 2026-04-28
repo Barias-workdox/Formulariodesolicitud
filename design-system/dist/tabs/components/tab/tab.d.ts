@@ -1,0 +1,1 @@
+export * from '../../../components/tabs/components/tab/tab.d'

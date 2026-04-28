@@ -1,0 +1,1 @@
+export * from '../../../components/collaboration/document-upload-details/document-upload-details-drawer/document-upload-details-drawer.js'

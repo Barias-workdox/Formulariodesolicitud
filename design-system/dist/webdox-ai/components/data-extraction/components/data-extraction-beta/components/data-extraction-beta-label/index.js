@@ -1,0 +1,1 @@
+export * from '../../../../../../../components/webdox-ai/components/data-extraction/components/data-extraction-beta/components/data-extraction-beta-label/index.js'

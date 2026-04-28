@@ -1,0 +1,1 @@
+export * from '../../../components/collaboration/layouts/collaboration-layout/index.js'

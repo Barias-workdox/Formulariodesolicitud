@@ -1,0 +1,1 @@
+export * from '../../../components/dynamic-dialog/next/hooks/use-dialog-resize.hook.d'

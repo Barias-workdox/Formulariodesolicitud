@@ -1,0 +1,1 @@
+export * from '../../components/spinner/next/spinner.interface.d'

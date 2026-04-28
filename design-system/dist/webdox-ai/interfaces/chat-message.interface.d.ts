@@ -1,0 +1,1 @@
+export * from '../../components/webdox-ai/interfaces/chat-message.interface.d'

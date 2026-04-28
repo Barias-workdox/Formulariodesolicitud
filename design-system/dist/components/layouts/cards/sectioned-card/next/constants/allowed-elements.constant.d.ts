@@ -1,0 +1,2 @@
+export declare const ALLOWED_SECTIONED_CARD_HEADER_ELEMENTS: (((props: import('../components/sectioned-card-header').SectionedCardHeaderProps) => JSX.Element) | ((props: import('../components/sectioned-card-header-tabs').SectionedCardHeaderTabsProps) => JSX.Element))[];
+export declare const ALLOWED_SECTIONED_CARD_FOOTER_ELEMENTS: ((props: import('../components/sectioned-card-footer').SectionedCardFooterProps) => JSX.Element)[];

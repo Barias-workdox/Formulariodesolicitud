@@ -1,0 +1,1 @@
+export * from '../../../components/account-menu/components/language-selector/index.js'

@@ -1,0 +1,1 @@
+export * from '../../../../components/forms/validations/nic/util/nic-18n.util.js'

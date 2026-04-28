@@ -1,0 +1,1 @@
+export * from '../components/account-menu/account-menu.d'

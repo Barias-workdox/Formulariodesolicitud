@@ -1,0 +1,1 @@
+export * from '../../../../../../components/collaboration/components/contract-negotiation/collaboration-header/components/collaboration-header-tag/collaboration-header-tag.js'

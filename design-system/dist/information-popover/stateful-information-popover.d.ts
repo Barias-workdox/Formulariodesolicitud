@@ -1,0 +1,1 @@
+export * from '../components/information-popover/stateful-information-popover.d'

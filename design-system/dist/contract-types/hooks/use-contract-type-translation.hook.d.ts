@@ -1,0 +1,1 @@
+export * from '../../components/contract-types/hooks/use-contract-type-translation.hook.d'

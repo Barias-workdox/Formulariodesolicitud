@@ -1,0 +1,1 @@
+export * from '../../components/dynamic-dialog/next/dynamic-dialog.d'

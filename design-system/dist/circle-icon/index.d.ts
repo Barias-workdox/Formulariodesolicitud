@@ -1,0 +1,1 @@
+export * from '../components/circle-icon/index.d'

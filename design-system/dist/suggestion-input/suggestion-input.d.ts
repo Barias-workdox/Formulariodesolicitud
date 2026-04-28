@@ -1,0 +1,1 @@
+export * from '../components/suggestion-input/suggestion-input.d'

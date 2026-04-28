@@ -1,0 +1,1 @@
+export * from '../components/filters-group/stateful-filters-group.d'

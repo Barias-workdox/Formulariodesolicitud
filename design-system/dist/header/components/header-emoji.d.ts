@@ -1,0 +1,1 @@
+export * from '../../components/header/components/header-emoji.d'

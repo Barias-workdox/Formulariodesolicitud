@@ -1,0 +1,1 @@
+export * from '../../../../../components/webdox-ai/components/webdox-ai-button-information-popover/components/chat-shortcut-information-popover/index.d'

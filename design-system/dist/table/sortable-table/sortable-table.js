@@ -1,0 +1,1 @@
+export * from '../../components/table/sortable-table/sortable-table.js'

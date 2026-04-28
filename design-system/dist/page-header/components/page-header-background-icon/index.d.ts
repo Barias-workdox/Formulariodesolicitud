@@ -1,0 +1,1 @@
+export * from '../../../components/page-header/components/page-header-background-icon/index.d'

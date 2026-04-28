@@ -1,0 +1,1 @@
+export * from '../../../components/decision-tree/components/modal-delete-group-rule/index.js'

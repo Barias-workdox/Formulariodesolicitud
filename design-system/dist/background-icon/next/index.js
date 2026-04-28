@@ -1,0 +1,1 @@
+export * from '../../components/background-icon/next/index.js'

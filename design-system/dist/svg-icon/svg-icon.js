@@ -1,0 +1,1 @@
+export * from '../components/svg-icon/svg-icon.js'

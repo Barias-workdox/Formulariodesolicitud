@@ -1,0 +1,1 @@
+export * from '../../../../../../components/collaboration/components/contract-negotiation/finalize-drawer/components/status-icon/index.d'

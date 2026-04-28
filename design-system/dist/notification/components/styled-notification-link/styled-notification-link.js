@@ -1,0 +1,1 @@
+export * from '../../../components/notification/components/styled-notification-link/styled-notification-link.js'

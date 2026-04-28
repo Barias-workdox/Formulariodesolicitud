@@ -1,0 +1,1 @@
+export * from '../../../../../components/webdox-ai/components/webdox-ai-document-viewer-wrapper/components/translate-action/index.js'

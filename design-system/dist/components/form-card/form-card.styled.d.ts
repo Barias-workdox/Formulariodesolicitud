@@ -1,0 +1,18 @@
+import { FormCardProps } from './form-card.interfaces';
+import { ButtonProps } from '../button/next';
+import { StyleObject } from 'styletron-standard';
+export declare const textStyles: StyleObject;
+export declare const backButtonOverrides: ButtonProps['overrides'];
+type FormCardContainerStyledProps = Pick<FormCardProps, '$hasElevation' | '$height' | '$width' | '$maxWidth'>;
+export declare const FormCardContainerStyled: import('styletron-react').StyletronComponent<"div", FormCardContainerStyledProps>;
+export declare const FormCardTopContainerStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardHeaderStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardNavStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardNavLeftStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardNavRightStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardDescriptionStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardBodyStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardFooterStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardFooterActionStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export declare const FormCardFooterActionButtonsStyled: import('styletron-react').StyletronComponent<"div", {}>;
+export {};

@@ -1,0 +1,1 @@
+export * from '../../../components/file-picker/components/document-selector/document-selector.styles.d'

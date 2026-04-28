@@ -1,0 +1,1 @@
+{"version":3,"file":"default.validation.js","sources":["../../../../../../src/components/forms/validations/nic/default/default.validation.ts"],"sourcesContent":["/** Rule to validate a NIC that does not belong to any country */\nexport const validateDefaultNic = (): boolean => true;\n"],"names":["validateDefaultNic"],"mappings":"AACO,MAAMA,IAAqB,MAAe;"}

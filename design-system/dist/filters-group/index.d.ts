@@ -1,0 +1,1 @@
+export * from '../components/filters-group/index.d'

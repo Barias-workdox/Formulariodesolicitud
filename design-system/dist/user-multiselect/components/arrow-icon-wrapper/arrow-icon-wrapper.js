@@ -1,0 +1,1 @@
+export * from '../../../components/user-multiselect/components/arrow-icon-wrapper/arrow-icon-wrapper.js'

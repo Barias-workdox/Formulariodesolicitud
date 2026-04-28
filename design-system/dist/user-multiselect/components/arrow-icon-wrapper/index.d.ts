@@ -1,0 +1,1 @@
+export * from '../../../components/user-multiselect/components/arrow-icon-wrapper/index.d'

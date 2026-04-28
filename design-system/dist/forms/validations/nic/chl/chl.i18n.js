@@ -1,0 +1,1 @@
+export * from '../../../../components/forms/validations/nic/chl/chl.i18n.js'

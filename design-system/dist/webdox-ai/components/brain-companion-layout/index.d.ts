@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/components/brain-companion-layout/index.d'

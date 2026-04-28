@@ -1,0 +1,1 @@
+export * from '../../../../../components/collaboration/components/contract-negotiation/layouts/contract-negotiation-third-party/contract-negotiation-third-party.d'

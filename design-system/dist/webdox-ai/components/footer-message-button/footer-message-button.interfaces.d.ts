@@ -1,0 +1,1 @@
+export * from '../../../components/webdox-ai/components/footer-message-button/footer-message-button.interfaces.d'

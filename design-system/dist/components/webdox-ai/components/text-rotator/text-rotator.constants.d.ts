@@ -1,0 +1,1 @@
+export declare const TEXT_ROTATOR_TRANSITION_DURATION = 2000;

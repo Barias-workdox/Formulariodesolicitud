@@ -1,0 +1,1 @@
+export * from '../../components/collaboration/containers/finalize-drawer.container.js'

@@ -1,0 +1,1 @@
+export * from '../../../../components/dynamic-dialog/components/resizable-container/styled-components/index.d'

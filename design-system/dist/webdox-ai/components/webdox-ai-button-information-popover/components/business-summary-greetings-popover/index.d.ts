@@ -1,0 +1,1 @@
+export * from '../../../../../components/webdox-ai/components/webdox-ai-button-information-popover/components/business-summary-greetings-popover/index.d'

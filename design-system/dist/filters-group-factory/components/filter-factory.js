@@ -1,0 +1,1 @@
+export * from '../../components/filters-group-factory/components/filter-factory.js'

@@ -1,0 +1,1 @@
+export * from '../../../components/data-table/components/table-column/table-column.d'

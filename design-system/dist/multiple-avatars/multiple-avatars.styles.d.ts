@@ -1,0 +1,1 @@
+export * from '../components/multiple-avatars/multiple-avatars.styles.d'

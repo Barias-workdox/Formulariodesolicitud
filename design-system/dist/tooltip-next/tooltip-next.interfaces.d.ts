@@ -1,0 +1,1 @@
+export * from '../components/tooltip-next/tooltip-next.interfaces.d'

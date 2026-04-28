@@ -1,0 +1,1 @@
+export * from '../../../components/inline-edit-input/components/edit-input/index.d'
