@@ -1,5 +1,6 @@
 {
-  "buildCommand": "npm run build && cp -r smart-contract-form/dist ./dist",
-  "outputDirectory": "dist",
-  "installCommand": "npm install"
+  "buildCommand": "npm install && npm run build --workspace=smart-contract-form",
+  "outputDirectory": "smart-contract-form/dist",
+  "installCommand": "echo skipping",
+  "framework": null
 }
