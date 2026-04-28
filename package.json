@@ -2,7 +2,6 @@
   "name": "solicitud-smart",
   "private": true,
   "workspaces": [
-    "design-system",
     "smart-contract-form"
   ]
 }
