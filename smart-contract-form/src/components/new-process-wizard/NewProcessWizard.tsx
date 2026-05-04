@@ -1,6 +1,6 @@
 import { useMemo, useState, useRef, useEffect } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
-import { ArrowRight, ArrowLeft, Search, Chat, SendAlt } from '@carbon/icons-react';
+import { ArrowRight, ArrowLeft, Search, Edit, Chat, SendAlt } from '@carbon/icons-react';
 
 import { Drawer } from '@webdoxclm/design-system/drawer';
 import { FormCard } from '@webdoxclm/design-system/form-card';
@@ -12,14 +12,14 @@ import { Input } from '@webdoxclm/design-system/input/next';
 import { Notification } from '@webdoxclm/design-system/notification/next';
 import { getToasterContainerContext, ToasterContainerProvider, useToaster } from '@webdoxclm/design-system/notification/toast';
 
-import { MOCK_CONTRACT_TYPES } from './new-process-wizard.data';
+import { MOCK_CONTRACT_TYPES, getTemplatesForContractType } from './new-process-wizard.data';
 import { Step2Form } from './Step2Form';
 import { Step2Part2Form } from './Step2Part2Form';
 import { Step3Summary } from './Step3Summary';
 import { SolicitudSubmittedView } from './SolicitudSubmittedView';
 import type { GestionState } from './SolicitudSubmittedView';
 
-import type { ContractType, WizardFormData } from './new-process-wizard.data';
+import type { ContractType, FormTemplate, WizardFormData } from './new-process-wizard.data';
 
 const toasterContext = getToasterContainerContext();
 
@@ -82,6 +82,7 @@ const NewProcessWizardInner = () => {
   const siblingRef = useRef<HTMLDivElement>(null);
   const [currentStep, setCurrentStep] = useState(editState?.editStep ?? 1);
   const [selectedContractType, setSelectedContractType] = useState<ContractType | null>(resolvedContractType);
+  const [selectedTemplate, setSelectedTemplate] = useState<FormTemplate | null>(null);
   const [formData, setFormData] = useState<WizardFormData>(resolvedFormData);
   const [submitted, setSubmitted] = useState(false);
   const [draftSavedAt, setDraftSavedAt] = useState<string | null>(editState?.draftSavedAt ?? null);
@@ -93,7 +94,7 @@ const NewProcessWizardInner = () => {
   useEffect(() => {
     if (editState?.isCorrectionMode) {
       setSubmitted(false);
-      setCurrentStep(editState.editStep ?? 4);
+      setCurrentStep(editState.editStep ?? 5);
     }
   }, [editState?.isCorrectionMode]);
 
@@ -125,7 +126,7 @@ const NewProcessWizardInner = () => {
     const gestionState = editState?.gestionState;
     const process = editState?.process;
     setSubmitted(true);
-    history.replace('/processes/new', gestionState && process ? { gestionState, process, editStep: 4 } : undefined);
+    history.replace('/processes/new', gestionState && process ? { gestionState, process, editStep: 5 } : undefined);
   };
 
   const handleSaveDraft = () => {
@@ -194,12 +195,21 @@ const NewProcessWizardInner = () => {
             {currentStep === 1 && (
               <Step1
                 selectedContractType={selectedContractType}
-                onSelect={setSelectedContractType}
+                onSelect={(ct) => { setSelectedContractType(ct); setSelectedTemplate(null); }}
                 onBack={handleBack}
                 onContinue={handleContinue}
               />
             )}
             {currentStep === 2 && selectedContractType && (
+              <Step1b
+                contractType={selectedContractType}
+                selectedTemplate={selectedTemplate}
+                onSelect={setSelectedTemplate}
+                onBack={handleBack}
+                onContinue={handleContinue}
+              />
+            )}
+            {currentStep === 3 && selectedContractType && (
               <Step2Form
                 contractType={selectedContractType}
                 formData={formData}
@@ -211,7 +221,7 @@ const NewProcessWizardInner = () => {
                 onSaveDraft={handleSaveDraft}
               />
             )}
-            {currentStep === 3 && selectedContractType && (
+            {currentStep === 4 && selectedContractType && (
               <Step2Part2Form
                 contractType={selectedContractType}
                 formData={formData}
@@ -223,7 +233,7 @@ const NewProcessWizardInner = () => {
                 onSaveDraft={handleSaveDraft}
               />
             )}
-            {currentStep === 4 && selectedContractType && (
+            {currentStep === 5 && selectedContractType && (
               <Step3Summary
                 contractType={selectedContractType}
                 formData={formData}
@@ -376,6 +386,138 @@ const CorrectionChatDrawer = ({ message }: { message: string }) => {
         </button>
       </div>
     </div>
+  );
+};
+
+const Step1b = ({
+  contractType,
+  selectedTemplate,
+  onSelect,
+  onBack,
+  onContinue,
+}: {
+  contractType: ContractType;
+  selectedTemplate: FormTemplate | null;
+  onSelect: (t: FormTemplate | null) => void;
+  onBack: () => void;
+  onContinue: () => void;
+}) => {
+  const [searchFilter, setSearchFilter] = useState('');
+  const [showError, setShowError] = useState(false);
+
+  const templates = useMemo(
+    () =>
+      getTemplatesForContractType(contractType.id).filter((t) =>
+        t.label.toLowerCase().includes(searchFilter.toLowerCase()),
+      ),
+    [contractType.id, searchFilter],
+  );
+
+  const handleContinue = () => {
+    if (!selectedTemplate) {
+      setShowError(true);
+      return;
+    }
+    onContinue();
+  };
+
+  return (
+    <FormCard
+      $maxWidth="100%"
+      title="Seleccionar tipo de contrato"
+      onBack={onBack}
+      headerTitle="Selecciona un proceso para iniciar"
+      headerSubtitle="Este tipo de contrato ofrece múltiples modelos de procesos disponibles. Por favor, selecciona el que deseas utilizar para continuar."
+      footerInfo={
+        showError && !selectedTemplate ? (
+          <Notification
+            kind="negative"
+            title="Selecciona un proceso"
+            description="El proceso es requisito para continuar con la solicitud."
+          />
+        ) : undefined
+      }
+      footerActions={
+        <FormCard.FooterActions
+          submitButton={{
+            text: 'Continuar',
+            size: '44px',
+            endEnhancer: () => <ArrowRight size={16} />,
+            onClick: handleContinue,
+          }}
+        />
+      }
+    >
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 16, padding: '8px' }}>
+        <div
+          style={{
+            border: '1px solid #E5E7EB',
+            borderRadius: 4,
+            padding: 16,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+          }}
+        >
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+            <span
+              style={{
+                fontSize: 12,
+                fontWeight: 400,
+                color: '#52617A',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+              }}
+            >
+              Tipo de contrato
+            </span>
+            <span style={{ fontSize: 16, fontWeight: 500, color: '#171A1C' }}>
+              {contractType.label}
+            </span>
+          </div>
+          <IconButton kind="secondary" size="32px" onClick={onBack}>
+            <Edit size={16} />
+          </IconButton>
+        </div>
+
+        <Input
+          placeholder="Filtrar proceso"
+          value={searchFilter}
+          onChange={(e) => setSearchFilter(e.currentTarget.value)}
+          startEnhancer={() => <Search size={16} />}
+          clearable
+          onClear={() => setSearchFilter('')}
+        />
+
+        <span style={{ fontSize: 14, color: '#4B5563' }}>
+          Selecciona solo 1 de los {templates.length} procesos disponibles
+        </span>
+
+        <div
+          style={{
+            maxHeight: 480,
+            overflowY: 'auto',
+            border: '1px solid #E5E7EB',
+            borderRadius: 8,
+            padding: 16,
+          }}
+        >
+          <RadioGroup
+            options={templates}
+            valueKey="id"
+            labelKey="label"
+            value={selectedTemplate?.id ?? ''}
+            onChange={(e) => {
+              const tpl = getTemplatesForContractType(contractType.id).find(
+                (t) => t.id === e.currentTarget.value,
+              );
+              onSelect(tpl ?? null);
+              setShowError(false);
+            }}
+          />
+        </div>
+      </div>
+    </FormCard>
   );
 };
 

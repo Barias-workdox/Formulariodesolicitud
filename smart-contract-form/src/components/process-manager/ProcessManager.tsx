@@ -505,7 +505,7 @@ export const ProcessManager = () => {
     }
     if (process.estado === 'En borrador') {
       history.push('/processes/new', {
-        editStep: 4,
+        editStep: 5,
         process: { id: process.id, nombre: process.nombre, tipoContrato: process.tipoContrato },
         draftSavedAt: new Date('2025-02-13T10:02:00.000Z').toISOString(),
       });

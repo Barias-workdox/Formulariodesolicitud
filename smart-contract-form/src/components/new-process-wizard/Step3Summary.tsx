@@ -237,7 +237,7 @@ export const Step3Summary = ({ contractType, formData, onBack, onGoToStep, onSub
                   <SectionedCard.BackgroundIcon icon={DocumentBlank} kind="brand" appearance="tonal" />
                 }
                 actions={
-                  <IconButton kind="secondary" size="32px" onClick={() => onGoToStep(2)}>
+                  <IconButton kind="secondary" size="32px" onClick={() => onGoToStep(3)}>
                     <Edit size={16} />
                   </IconButton>
                 }
@@ -270,7 +270,7 @@ export const Step3Summary = ({ contractType, formData, onBack, onGoToStep, onSub
                   <SectionedCard.BackgroundIcon icon={DocumentBlank} kind="brand" appearance="tonal" />
                 }
                 actions={
-                  <IconButton kind="secondary" size="32px" onClick={() => onGoToStep(3)}>
+                  <IconButton kind="secondary" size="32px" onClick={() => onGoToStep(4)}>
                     <Edit size={16} />
                   </IconButton>
                 }

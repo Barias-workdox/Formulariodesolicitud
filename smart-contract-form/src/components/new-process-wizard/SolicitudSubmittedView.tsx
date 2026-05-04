@@ -1179,7 +1179,7 @@ export const SolicitudSubmittedView = ({
             initialConfirmedAssignee={initialGestionState?.confirmedAssignee}
             initialIsEnCurso={initialGestionState?.isEnCurso}
             onCorrectionRequested={(text, gestionState) => history.push('/processes/new', {
-              editStep: 4,
+              editStep: 5,
               isCorrectionMode: true,
               correctionMessage: text,
               gestionState,

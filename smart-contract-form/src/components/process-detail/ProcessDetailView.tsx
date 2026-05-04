@@ -295,7 +295,7 @@ export const ProcessDetailView = () => {
         {isSolicitud && (
           <div style={{ flex: '1 1 300px', minWidth: 0, padding: 8, display: 'flex', flexDirection: 'column', overflowY: 'auto' }}>
             <GestionCard onCorrectionRequested={(text) => history.push('/processes/new', {
-                editStep: 4,
+                editStep: 5,
                 isCorrectionMode: true,
                 correctionMessage: text,
                 process: { id: process.id, nombre: process.nombre, tipoContrato: process.tipoContrato },
@@ -323,7 +323,7 @@ export const ProcessDetailView = () => {
         >
           <div style={{ flex: 1, overflowY: 'auto', padding: '24px 16px' }}>
             {activeTab === 'resumen' ? (
-              <ProcessResumen process={process} onEdit={() => history.push('/processes/new', { editStep: 4, process })} />
+              <ProcessResumen process={process} onEdit={() => history.push('/processes/new', { editStep: 5, process })} />
             ) : (
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#69768B' }}>
                 Vista de documento no disponible
